@@ -1,0 +1,72 @@
+{
+  "name": "SWZA - Read Tasks from Sheet",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "trigger-1",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [100, 300]
+    },
+    {
+      "parameters": {
+        "operation": "read",
+        "documentId": {
+          "mode": "list",
+          "value": "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s"
+        },
+        "sheetName": {
+          "mode": "list",
+          "value": "TASKS"
+        },
+        "options": {
+          "rowStart": "5",
+          "rowEnd": "10"
+        }
+      },
+      "id": "sheets-1",
+      "name": "Read Tasks",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [400, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nlet output = '';\nfor (const item of items) {\n  const row = item.json;\n  output += `Task: ${row.A || 'N/A'}, Owner: ${row.C || 'N/A'}\\n`;\n}\nreturn [{json: {message: output}}];"
+      },
+      "id": "code-1",
+      "name": "Format Output",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [700, 300]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Read Tasks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Tasks": {
+      "main": [
+        [
+          {
+            "node": "Format Output",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {},
+  "id": null
+}

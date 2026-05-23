@@ -1,0 +1,5 @@
+docs/PARA/
+*.md.bak
+.DS_Store
+.env
+opencode.json

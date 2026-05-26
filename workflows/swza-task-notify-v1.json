@@ -1,0 +1,401 @@
+{
+  "name": "SWZA - Task Notification Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            { "field": "minutes", "minutesInterval": 15 }
+          ]
+        }
+      },
+      "id": "schedule-1",
+      "name": "Schedule Trigger (every 15 min)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [100, 300]
+    },
+    {
+      "parameters": {
+        "operation": "read",
+        "documentId": "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s",
+        "sheetName": "TASKS_v2",
+        "options": {
+          "rowStart": "2"
+        }
+      },
+      "id": "sheets-tasks",
+      "name": "Read TASKS_v2",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [340, 300],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "gs_creds",
+          "name": "Google Sheets (startupweekend.zilina@gmail.com)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "read",
+        "documentId": "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s",
+        "sheetName": "STATE_TRACKER",
+        "options": {
+          "rowStart": "2"
+        }
+      },
+      "id": "sheets-state",
+      "name": "Read State Tracker",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [340, 580],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "gs_creds",
+          "name": "Google Sheets (startupweekend.zilina@gmail.com)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Read current TASKS_v2\nconst tasks = $input.all();\n// Read previous state\nconst prevStateInput = $('Read State Tracker').all();\n\n// Build prev state map: task_id -> {owner_email, status}\nconst prevState = {};\nfor (const row of prevStateInput) {\n  const id = row.json.A;\n  if (id) prevState[id] = { owner_email: row.json.B, status: row.json.C };\n}\n\nconst now = new Date().toISOString();\nconst results = [];\nconst updateRows = [];\n\nfor (const task of tasks) {\n  const id = task.json.A;\n  const task_name = task.json.B;\n  const owner_email = task.json.E;\n  const status = task.json.F;\n  const deadline = task.json.H;\n\n  if (!id) continue;\n\n  const prev = prevState[id];\n  const prevOwner = prev ? prev.owner_email : null;\n  const prevStatus = prev ? prev.status : null;\n\n  // CASE 1: New task (new ID, new owner)\n  if (!prevOwner && owner_email) {\n    results.push({\n      json: { id, task_name, owner_email, status, deadline,\n              action: 'new_assignment', change_field: 'owner', new_value: status }\n    });\n  }\n  // CASE 2: Owner changed\n  else if (prevOwner !== owner_email && owner_email) {\n    results.push({\n      json: { id, task_name, owner_email, status, deadline,\n              action: 'owner_changed', change_field: 'owner', prev_value: prevOwner, new_value: owner_email }\n    });\n  }\n  // CASE 3: Status changed\n  else if (prevStatus !== status && status) {\n    results.push({\n      json: { id, task_name, owner_email, status, deadline,\n              action: 'status_changed', change_field: 'status', prev_value: prevStatus, new_value: status }\n    });\n  }\n\n  // Always update state tracker\n  updateRows.push({\n    A: id, B: owner_email || prevOwner, C: status || prevStatus, D: now\n  });\n}\n\nreturn results.length > 0 ? results : [{ json: { message: 'no_changes', count: 0 } }];"
+      },
+      "id": "code-detect",
+      "name": "Detect Changes",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [580, 440]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Rebuild full state tracker from current TASKS_v2\nconst tasks = $input.all();\nconst now = new Date().toISOString();\nconst rows = [];\n\nfor (const task of tasks) {\n  const id = task.json.A;\n  if (!id) continue;\n  rows.push({\n    A: id,\n    B: task.json.E || '',\n    C: task.json.F || '',\n    D: now\n  });\n}\n\nreturn rows.map(r => ({ json: r }));"
+      },
+      "id": "code-state",
+      "name": "Rebuild State",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [580, 300]
+    },
+    {
+      "parameters": {
+        "operation": "delete",
+        "documentId": "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s",
+        "sheetName": "STATE_TRACKER"
+      },
+      "id": "sheets-delete-state",
+      "name": "Clear State Tracker",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [820, 300],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "gs_creds",
+          "name": "Google Sheets (startupweekend.zilina@gmail.com)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s",
+        "sheetName": "STATE_TRACKER",
+        "columns": {
+          "分配": ["A", "B", "C", "D"]
+        }
+      },
+      "id": "sheets-write-state",
+      "name": "Write State Tracker",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [1060, 300],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "gs_creds",
+          "name": "Google Sheets (startupweekend.zilina@gmail.com)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "cond-action-owner",
+              "name": "If: action = new_assignment OR owner_changed",
+              "expression": "{{ $json.action === 'new_assignment' || $json.action === 'owner_changed' }}"
+            }
+          ],
+          "combinator": "AND"
+        },
+        "options": {}
+      },
+      "id": "if-owner-change",
+      "name": "IF: Owner Changed",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [820, 440]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "cond-action-status",
+              "name": "If: action = status_changed",
+              "expression": "{{ $json.action === 'status_changed' }}"
+            }
+          ],
+          "combinator": "AND"
+        },
+        "options": {}
+      },
+      "id": "if-status-change",
+      "name": "IF: Status Changed",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [820, 620]
+    },
+    {
+      "parameters": {
+        "resource": "mail",
+        "operation": "send",
+        "to": "={{ $json.owner_email }}",
+        "subject": "=[SWZA] Nova uloha priradena: {{ $json.task_name }}",
+        "body": "=?Ahoj!\\n\\nBola ti priradena nova uloha:\\n\\nID: {{ $json.id }}\\nUloha: {{ $json.task_name }}\\nDeadline: {{ $json.deadline }}\\nStatus: {{ $json.status }}\\n\\nProsim prevzmi ju alebo aktualizuj status.\\n\\n-- \\nSWZA Team",
+        "options": {
+          "fromEmail": "startupweekend.zilina@gmail.com",
+          "fromName": "SWZA Robot"
+        }
+      },
+      "id": "gmail-owner",
+      "name": "SEND: Owner Assignment Email",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [1060, 440],
+      "credentials": {
+        "gmailOAuth2Api": {
+          "id": "gmail_creds",
+          "name": "Gmail (startupweekend.zilina@gmail.com)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "mail",
+        "operation": "send",
+        "to": "={{ $json.owner_email }}",
+        "subject": "=[SWZA] Status updatnuty: {{ $json.task_name }} → {{ $json.new_value }}",
+        "body": "=?Ahoj!\\n\\nStatus ulohy bol zmenen:\\n\\nID: {{ $json.id }}\\nUloha: {{ $json.task_name }}\\nStary status: {{ $json.prev_value }}\\nNovy status: {{ $json.new_value }}\\nDeadline: {{ $json.deadline }}\\n\\n-- \\nSWZA Robot",
+        "options": {
+          "fromEmail": "startupweekend.zilina@gmail.com",
+          "fromName": "SWZA Robot"
+        }
+      },
+      "id": "gmail-status",
+      "name": "SEND: Status Update Email",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [1060, 620],
+      "credentials": {
+        "gmailOAuth2Api": {
+          "id": "gmail_creds",
+          "name": "Gmail (startupweekend.zilina@gmail.com)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "read",
+        "documentId": "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s",
+        "sheetName": "TASKS_v2",
+        "options": {
+          "rowStart": "2"
+        }
+      },
+      "id": "sheets-read-reminders",
+      "name": "Read TASKS_v2 for Reminders",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [580, 820],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "gs_creds",
+          "name": "Google Sheets (startupweekend.zilina@gmail.com)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Filter tasks that are stale (>3 days old since last update or reminder)\n// Read all tasks still in todo/in_progress/blocked/postponed\n// Filter to those where no reminder sent in past 3 days\n\nconst tasks = $input.all();\nconst now = new Date();\nconst threeDaysAgo = new Date(now.getTime() - 3 * 24 * 60 * 60 * 1000);\n\nconst staleTasks = tasks.filter(task => {\n  const status = task.json.F;\n  if (status === 'done' || status === 'cancelled') return false;\n  // For MVP: just send reminder for all non-done tasks)\n  const owner_email = task.json.E;\n  return owner_email && owner_email.includes('@');\n});\n\nreturn staleTasks.map(t => ({\n  json: {\n    id: t.json.A,\n    task_name: t.json.B,\n    owner_email: t.json.E,\n    status: t.json.F,\n    deadline: t.json.H\n  }\n}));"
+      },
+      "id": "code-stale",
+      "name": "Find Stale Tasks",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [820, 820]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "cond-stale",
+              "name": "If: stale tasks exist",
+              "expression": "{{ $json.id !== undefined }}"
+            }
+          ],
+          "combinator": "AND"
+        },
+        "options": {}
+      },
+      "id": "if-stale",
+      "name": "IF: Stale Tasks",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [1060, 820]
+    },
+    {
+      "parameters": {
+        "resource": "mail",
+        "operation": "send",
+        "to": "={{ $json.owner_email }}",
+        "subject": "=[SWZA] Pripomienka: {{ $json.task_name }} — uz 3 dni bez aktualizacie!",
+        "body": "=?Zdravim!\\n\\nToto je automated pripomenutie — tvoja uloha uz 3 dni nema aktualizovany status:\\n\\nID: {{ $json.id }}\\nUloha: {{ $json.task_name }}\\nAktualny status: {{ $json.status }}\\nDeadline: {{ $json.deadline }}\\n\\nProsim aktualizuj status alebo daj vediet, ak potrebujes pomoc.\\n\\n-- \\nSWZA Robot",
+        "options": {
+          "fromEmail": "startupweekend.zilina@gmail.com",
+          "fromName": "SWZA Robot"
+        }
+      },
+      "id": "gmail-reminder",
+      "name": "SEND: 3-Day Reminder",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [1280, 820],
+      "credentials": {
+        "gmailOAuth2Api": {
+          "id": "gmail_creds",
+          "name": "Gmail (startupweekend.zilina@gmail.com)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s",
+        "sheetName": "TASKS_v2",
+        "columns": {
+          "mappingMode": "defineBelow",
+          "valueInput": "USER_ENTERED",
+          "columns": [
+            { "columnSelection": "A", "columnHeader": "ID", "columnValue": "={{ $json.id }}" },
+            { "columnSelection": "B", "columnHeader": "Uloha", "columnValue": "={{ $json.task_name }}" }
+          ]
+        }
+      },
+      "id": "sheets-debug",
+      "name": "Debug Append (TEMP)",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.2,
+      "position": [580, 1080],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "gs_creds",
+          "name": "Google Sheets (startupweekend.zilina@gmail.com)"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Schedule Trigger (every 15 min)": {
+      "main": [
+        [{ "node": "Read TASKS_v2", "type": "main", "index": 0 }],
+        [{ "node": "Read State Tracker", "type": "main", "index": 0 }],
+        [{ "node": "Read TASKS_v2 for Reminders", "type": "main", "index": 0 }]
+      ]
+    },
+    "Read TASKS_v2": {
+      "main": [
+        [{ "node": "Detect Changes", "type": "main", "index": 0 }]
+      ]
+    },
+    "Read State Tracker": {
+      "main": [
+        [
+          { "node": "Detect Changes", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Detect Changes": {
+      "main": [
+        [{ "node": "IF: Owner Changed", "type": "main", "index": 0 }],
+        [{ "node": "IF: Status Changed", "type": "main", "index": 0 }],
+        [{ "node": "Rebuild State", "type": "main", "index": 0 }]
+      ]
+    },
+    "Rebuild State": {
+      "main": [
+        [{ "node": "Clear State Tracker", "type": "main", "index": 0 }]
+      ]
+    },
+    "Clear State Tracker": {
+      "main": [
+        [{ "node": "Write State Tracker", "type": "main", "index": 0 }]
+      ]
+    },
+    "Write State Tracker": {
+      "main": [
+        [{ "node": "Debug Append (TEMP)", "type": "main", "index": 0 }]
+      ]
+    },
+    "IF: Owner Changed": {
+      "main": [
+        [{ "node": "SEND: Owner Assignment Email", "type": "main", "index": 0 }],
+        []
+      ]
+    },
+    "IF: Status Changed": {
+      "main": [
+        [{ "node": "SEND: Status Update Email", "type": "main", "index": 0 }],
+        []
+      ]
+    },
+    "Read TASKS_v2 for Reminders": {
+      "main": [
+        [{ "node": "Find Stale Tasks", "type": "main", "index": 0 }]
+      ]
+    },
+    "Find Stale Tasks": {
+      "main": [
+        [{ "node": "IF: Stale Tasks", "type": "main", "index": 0 }]
+      ]
+    },
+    "IF: Stale Tasks": {
+      "main": [
+        [{ "node": "SEND: 3-Day Reminder", "type": "main", "index": 0 }],
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "id": null,
+  "tags": ["swza", "notifications", "tasks"]
+}

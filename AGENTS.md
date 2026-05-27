@@ -76,15 +76,20 @@ Príklady:
 
 **Verzovanie:** `[MAJOR.MINOR.PATCH]` podľa zmien (nová funkcia = MINOR, breaking = MAJOR, bugfix = PATCH)
 
-## Language Rule — SLAVNÉ PRAVIDLO
+## PERMANENTNE PLATIACE PRAVIDLÁ — KRITICKÉ
 
-**VŽDY odpovedz v SLOVENSKOM jazyku.** Žiadne čínske znaky, japonské znaky ani iné neslovenské písmená v odpovediach.
-- Toto pravidlo je CROSS-SESSION — platí vždy, aj po zmazaní memory alebo strate kontextu
-- Uložené v: `memory` (Hermes persistent) + `swza/AGENTS.md` (projektový súbor)
+### ⭐ Jazyk (cross-session)
+**VŽDY odpovedz v SLOVENSKOM jazyku.** Žiadne čínske znaky ani iné neslovenské písmená.
+Uložené v: `memory` + `swza/AGENTS.md`.
 
-Pri každom turn si over či odpovedáš po slovensky. Ak nie, prepíš.
+### ⭐ Perzistencia pravidiel (cross-session)
+**AKUKOLVEK instrukciu ali dôležité pravidlo (learning, dohodu, rozhodnutie) OKAMŽITE zapisuj do súboru.**
+- Primárne: príslušný `.md` súbor v projekte (`AGENTS.md`, `DECISIONS.md`, atď.)
+- Sekundárne: `memory` (Hermes persistent)
+- Pravidlo súboru = source of truth — platí aj po zmazaní memory ali strate session contextu
+- Toto pravidlo samo o sebe je PERMANENTNE uložené v: `memory` + `swza/AGENTS.md`
 
-## Security — Najvyššia priorita
+## Quick Start pre nového agenta
 
 **Kritické pravidlo:** Subory obsahujúce secrets (`.env`, atď.) sa NIKDY nečítajú cez tools a nepristupujú sa k nim priamo.
 

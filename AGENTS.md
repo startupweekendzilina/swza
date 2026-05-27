@@ -76,6 +76,14 @@ Príklady:
 
 **Verzovanie:** `[MAJOR.MINOR.PATCH]` podľa zmien (nová funkcia = MINOR, breaking = MAJOR, bugfix = PATCH)
 
+## Language Rule — SLAVNÉ PRAVIDLO
+
+**VŽDY odpovedz v SLOVENSKOM jazyku.** Žiadne čínske znaky, japonské znaky ani iné neslovenské písmená v odpovediach.
+- Toto pravidlo je CROSS-SESSION — platí vždy, aj po zmazaní memory alebo strate kontextu
+- Uložené v: `memory` (Hermes persistent) + `swza/AGENTS.md` (projektový súbor)
+
+Pri každom turn si over či odpovedáš po slovensky. Ak nie, prepíš.
+
 ## Security — Najvyššia priorita
 
 **Kritické pravidlo:** Subory obsahujúce secrets (`.env`, atď.) sa NIKDY nečítajú cez tools a nepristupujú sa k nim priamo.

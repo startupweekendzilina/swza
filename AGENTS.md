@@ -89,6 +89,32 @@ Uložené v: `memory` + `swza/AGENTS.md`.
 - Pravidlo súboru = source of truth — platí aj po zmazaní memory ali strate session contextu
 - Toto pravidlo samo o sebe je PERMANENTNE uložené v: `memory` + `swza/AGENTS.md`
 
+### ⭐ n8n MCP — optimalizácia requestov (prioritné pravidlo)
+**Uspornost je prioritnejšia ako rýchlosť, ale nie na úkor kvality.**
+
+**Pred každým n8n callom:**
+1. Mám info v lokálnych súboroch (`/home/node/swza/workflows/`)? Ak áno, nevolaj API.
+2. Stačí `validate_workflow` (1 call) namiesto `get_workflow` + `validate` (2 calls)?
+3. Môžem batchnúť viacero info do jedného callu?
+
+**Pravidlá:**
+- Lokálne JSON > n8n API (vždy)
+- `validate_workflow` = 1 call, nie 2
+- `mode="structure"` ak netreba parametre; `mode="minimal"` pre rýchlu topológiu
+- `get_node` = len ak nepoznám property names z dokumentácie
+- Known bugs oprav cez `patchNodeField` rovno, bez predchádzajúceho `get_node`
+- 3 workflowy = 1 batch, nie 3 postupné volania
+
+**Fallback ak call zlyhá:**
+- Najprv skontrolovať lokálne súbory (workflow JSON, skill docs, AGENTS.md)
+- Až potom skúsiť druhý call
+- Neopakovať ten istý call dokola ak zlyhá
+
+**Reportovanie — Po každom n8n use:**
+`n8n MCP: X/100 requestov dnes, Y zostáva.`
+
+Toto pravidlo = permanentné. Uložené v: `memory` + `swza/AGENTS.md`.
+
 ## Quick Start pre nového agenta
 
 **Kritické pravidlo:** Subory obsahujúce secrets (`.env`, atď.) sa NIKDY nečítajú cez tools a nepristupujú sa k nim priamo.

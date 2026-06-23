@@ -25,7 +25,7 @@ from pathlib import Path
 
 # === CONFIG ===
 SPREADSHEET_ID = "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s"
-SHEET_NAME    = "TASKS_v2"
+SHEET_NAME    = "TASKS"
 REMINDER_DAYS = 4
 SYSTEM_NAME   = "SWZA Robot"
 FROM_EMAIL    = "startupweekend.zilina@gmail.com"
@@ -65,10 +65,11 @@ def read_rows() -> tuple[list[dict], list[list], list[int]]:
     row_numbers[i] = číslo riadku v sheet (1-indexed, pre zápis J stĺpca)
     """
     data = run_json([
-        "sheets", "+read",
-        "--spreadsheet", SPREADSHEET_ID,
-        "--range", f"{SHEET_NAME}!A1:J1000",
-        "--format", "json"
+        "sheets", "spreadsheets", "values", "get",
+        "--params", json.dumps({
+            "spreadsheetId": SPREADSHEET_ID,
+            "range": f"{SHEET_NAME}!A1:J1000"
+        })
     ])
     values: list[list] = data.get("values", [])
     if len(values) < 2:
@@ -261,9 +262,8 @@ def main():
 Bol ti priradený nový task v SWZA organizácii:
 
 {task_lines}
-📋 [Pozri si úlohy priamo v Sheete](https://docs.google.com/spreadsheets/d/14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s/edit?gid=2099318786#gid=2099318786)
-
-Prosím prevzmi ho a aktualizuj status.
+Prosím, aktualizuj status priamo v Sheete tu:
+👉 https://docs.google.com/spreadsheets/d/14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s/edit?gid=2099318786#gid=2099318786
 
 --
 {SYSTEM_NAME}"""
@@ -291,7 +291,8 @@ Prosím prevzmi ho a aktualizuj status.
 Niektoré z tvojich úloh boli aktualizované:
 
 {task_lines}
-📋 [Pozri si úlohy priamo v Sheete](https://docs.google.com/spreadsheets/d/14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s/edit?gid=2099318786#gid=2099318786)
+Pozri si zmeny a prípadne ďalej reaguj v Sheete:
+👉 https://docs.google.com/spreadsheets/d/14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s/edit?gid=2099318786#gid=2099318786
 
 --
 {SYSTEM_NAME}"""
@@ -377,9 +378,8 @@ Automatická pripomenutie — tvoja úloha uz {REMINDER_DAYS} dni nema aktualizo
   Deadline: {task_deadline}
   Aktuálny stav: {t_stat}
 
-📋 [Pozri si úlohy priamo v Sheete](https://docs.google.com/spreadsheets/d/14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s/edit?gid=2099318786#gid=2099318786)
-
-Prosím aktualizuj status alebo daj vediet, ak potrebuješ pomôcť.
+Prosím aktualizuj status alebo daj vedieť, ak potrebuješ pomoc.
+👉 https://docs.google.com/spreadsheets/d/14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s/edit?gid=2099318786#gid=2099318786
 
 --
 {SYSTEM_NAME}"""

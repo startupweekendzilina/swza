@@ -1,138 +1,60 @@
-# SWZA — StartupWeekend Žilina #13
+# AGENTS.md — Startup Weekend Žilina #13
 
-## Entry Point
+## Pravidlá perzistencie
+- Všetky dôležité learningy a pravidlá zapisuj aj sem (súbor = source of truth) + memory
+- ~~Pozor na nekonzistenciu: oficiálne FAQ hovorí vek 12-14, plagát SWZA Kids má 10-14 — riešiť so Zuzkou~~ → VYRIEŠENÉ 23.6.2026
 
-Tento projekt je organizácia podujatia StartupWeekend Žilina #13. Pozri `docs/STAV.md` pre aktuálny stav a potom `docs/ROLES.md` pre rozhodnutia ohľadom štruktúry.
+## SWZA Kids — kľúčové dáta (jún 2026, finálne)
+- **Vek 2026: 12–14 rokov** — hlavne tento rozsah (podľa grantu). Minulé roky bol rozsah širší 10–14.
+- Plagát má stále 10–14 — treba zaktualizovať! (aktualizujem v ďalšom kroku)
+- **Mentori: 2 kid mentori na 1 detský tím** = 6 kid mentorov dokopy na celý víkend (3 tímy × 2)
+- Zatiaľ nemáme žiadnych kid mentorov — treba aktívne hľadať
+- Kapacita: 3 tímy × 5 detí = 15 detí
+- Program: sobota + nedeľa, 9:00–17:00 (skrátený režim)
+- Metodika: Lean Canvas, prototyp, finále, prieskum trhu, prezentácia
+- **Kids koordinátorka (key person): Dominika Bieliková** — bielikova.dominika@gmail.com, 0904 987 322
+- Sprievod: 10 € (strava, káva)
 
-## Quick Start pre nového agenta
+## SWZA Kids — stav projektov (jún 2026)
+- FAQ po víkende: DONE ✅ (doplnená motivácia + Inovia, link v Drive)
+- Media Kit: DONE ✅ (veku 12-14 sedí, doplnený odsek o 6 kid mentorech)
+- Plagát: PDF s textom "10-14" — stále need update na "12-14" (rok 2026 podľa grantu)
 
-1. Prečítaj `docs/STAV.md` — aktuálny stav
-2. Prečítaj `docs/ROLES.md` — kto vlastní čo
-3. Prečítaj `docs/PHASES.md` — čo sa deje kedy
-4. Prečítaj `docs/TOOLS.md` — aké nástroje používame
-5. Máš otázky? Pozri `docs/MEMORY.md` alebo eskaluj na hlavného organizátora (Baška)
+## Najbližšie akcie
+- Aktualizovať plagát SWZA Kids — vek 10-14 → 12-14 (PDF)
+- Pokračovať v nájdení kid mentorov (cieľ: 6 na celý víkend)
 
-## Core Principle: Context Preservation
+## Nábor mentorov (SWZA Kids)
+- Hľadáme 6 kids mentorov (2 na tím × 3 tímy)
+- Priorita: majú radi deti, nevadí im s nimi pracovať, vedia udržať focus, motivujú deti
+- Skúsenosti s prácou s deťmi sú plus, ale nie podmienka
+- Vedia smerovať deti bez toho, aby za nich riešili veci
 
-**Pravidlo:** Po KAŽDOM turn agent uloží do projektovej pamäte cokolvek dôležité:
-- Aktuálny stav úloh
-- Rozhodnutia a dohody
-- Zmeny v plánoch
-- Čo bolo dokončené / čo zostáva
+## Ciele Media Kitu SWZA Kids
+- Partneri: financie na prototypovanie, materiál, mentori, mediálny priestor
+- Mentori: ľudia čo majú radi deti, ochota pracovať s nimi, motivujú deti, udržiavajú focus
+- Školy: nábory šikovných detí (partnerstvá so školami, emaily na učiteľov)
+- Médiá: šírenie povedomia
 
-Použi skill `para-memory-files`. Pozri `docs/MEMORY.md`.
+## Komunikačné priečinky (Google Drive)
+- Komunikacia (FAQ): 1vyjCdy03T1XHdCd16kdD4b15h8TPD4JH
+  - FAQ podpriečinok: 1vTiZDyNvhoGBMS9Sz4tG6rGIPQW1Cj-T
+    - FAQ pre novinárov: 1oELnqq0aLwgxDQizN267iidP8u8vtysUxcovLWKV38U
+    - FAQ pre účastníkov SWZA #13: 1w6G2UnV7AzouhlRMqs4KuO8DjdHqhcjIJSRslp5jxOo
+- 02_Media Kit (SWZA KIDS): 1z7Fme-WEhVVZPpWOHwKjYEOASXpq3W0S
+  - Plagát SWZA Kids: 1I0DULNii_O1Qj3i8m_inQNmFG1OrICcf
+- Komunikačný materiál SWZA: 1UQhyU40cexenwWv65NK73YZ9INUGYrf4
+- 00_Media Kit (všeobecný): 1e7m-ElxKd5Z9OJ0gyrQpyf6_leXXlt1m
 
-## Communication & Handoff
-
-- Pred začiatkom novej práce: skontroluj `docs/STAV.md`
-- Po dokončení tasku: aktualizuj `docs/STAV.md`
-- Pri nejasnostiach: konzultuj s vlastníkom role (viď `ROLES.md`)
-- Kritické rozhodnutia: eskaluj na hlavného organizátora
-
-## Error Handling
-
-Pri problémoch:
-1. Zaloguj chybu do projektu
-2. Informuj vlastníka role
-3. Ak je kritické: eskaluj na hlavného organizátora
-4. Dokumentuj riešenie do `docs/TROUBLESHOOTING.md`
-
-## Dokumentačné pravidlá
-
-**Každé pravidlo musí byť explicitne zdokumentované.** Nikdy sa nespoliehať na domyslanie alebo ústnu dohodu. Čo nie je napísané, neexistuje.
-
-- Nové pravidlo = pridaj do AGENTS.md alebo do príslušného `.md` súboru
-- Zmena pravidla = aktualizuj existujúci záznam, nepridávaj nový bez kontextu
-- Pravidlo bez dokumentácie sa nepoužíva
-
-## Rozhodnutia a dohody
-
-**Čokoľvek na čom sa dohodneme, sa zaznamenáva ihneď.**
-
-- Rozhodnutie = zapíš do `docs/DECISIONS.md` alebo priamo do AGENTS.md ak je to pravidlo
-- Ak treba detaily k rozhodnutiu, pýtaj si ich pred zápisom
-- Čo nie je zapísané, neexistuje — nespoliehame sa na pamäť
-
-**Príklady:**
-- "Používame n8n nie Make" → `DECISIONS.md`
-- "Každý agent po turn uloží kontext" → `AGENTS.md` (už je)
-- "Štruktúra dokumentov = docs/ROLES, PHASES, ..." → `AGENTS.md`
-
-## CHANGELOG
-
-Každá zmysluplná zmena sa zaznamenáva do `CHANGELOG.md`.
-
-**Kedy commitnúť:**
-- Po dokončení funkcie alebo jej incrementu
-- Po akejkoľvek zmene konfigurácie (MCP, tools, atď.)
-- Po každom bugfixe alebo refaktorovaní
-
-**Formát commit správy:** `type: short description`
-
-Príklady:
-- `docs: add CHANGELOG.md tracking project evolution`
-- `security: add strict .env handling rules to AGENTS.md`
-- `feat: add n8n MCP server connection via opencode.json`
-
-**Verzovanie:** `[MAJOR.MINOR.PATCH]` podľa zmien (nová funkcia = MINOR, breaking = MAJOR, bugfix = PATCH)
-
-## PERMANENTNE PLATIACE PRAVIDLÁ — KRITICKÉ
-
-### ⭐ Jazyk (cross-session)
-**VŽDY odpovedz v SLOVENSKOM jazyku.** Žiadne čínske znaky ani iné neslovenské písmená.
-Uložené v: `memory` + `swza/AGENTS.md`.
-
-### ⭐ Perzistencia pravidiel (cross-session)
-**AKUKOLVEK instrukciu ali dôležité pravidlo (learning, dohodu, rozhodnutie) OKAMŽITE zapisuj do súboru.**
-- Primárne: príslušný `.md` súbor v projekte (`AGENTS.md`, `DECISIONS.md`, atď.)
-- Sekundárne: `memory` (Hermes persistent)
-- Pravidlo súboru = source of truth — platí aj po zmazaní memory ali strate session contextu
-- Toto pravidlo samo o sebe je PERMANENTNE uložené v: `memory` + `swza/AGENTS.md`
-
-### ⭐ n8n MCP — optimalizácia requestov (prioritné pravidlo)
-**Uspornost je prioritnejšia ako rýchlosť, ale nie na úkor kvality.**
-
-**Pred každým n8n callom:**
-1. Mám info v lokálnych súboroch (`/home/node/swza/workflows/`)? Ak áno, nevolaj API.
-2. Stačí `validate_workflow` (1 call) namiesto `get_workflow` + `validate` (2 calls)?
-3. Môžem batchnúť viacero info do jedného callu?
-
-**Pravidlá:**
-- Lokálne JSON > n8n API (vždy)
-- `validate_workflow` = 1 call, nie 2
-- `mode="structure"` ak netreba parametre; `mode="minimal"` pre rýchlu topológiu
-- `get_node` = len ak nepoznám property names z dokumentácie
-- Known bugs oprav cez `patchNodeField` rovno, bez predchádzajúceho `get_node`
-- 3 workflowy = 1 batch, nie 3 postupné volania
-
-**Fallback ak call zlyhá:**
-- Najprv skontrolovať lokálne súbory (workflow JSON, skill docs, AGENTS.md)
-- Až potom skúsiť druhý call
-- Neopakovať ten istý call dokola ak zlyhá
-
-**Reportovanie — Po každom n8n use:**
-`n8n MCP: X/100 requestov dnes, Y zostáva.`
-
-Toto pravidlo = permanentné. Uložené v: `memory` + `swza/AGENTS.md`.
-
-## Quick Start pre nového agenta
-
-**Kritické pravidlo:** Subory obsahujúce secrets (`.env`, atď.) sa NIKDY nečítajú cez tools a nepristupujú sa k nim priamo.
-
-- Všetky API kľúče a secrets sú v `.env` — pristupuje sa k nim len cez environment variables
-- MCP connections používajú `${VARIABLE_NAME}` placeholder v `opencode.json` — reálne hodnoty nikdy nie v konfiguračných súboroch
-- `opencode.json` referencuje `${N8N_MCP_API_KEY}` zo `.env`
-- `.env` je v `.gitignore` — nikdy sa necommituje
-
-Pri podozrení na exposed secret: okamžite informuj a eskaluj na hlavného organizátora.
-
-## Chyby a zaseky — Dokumentačné pravidlo
-
-**Každú chybu alebo zasek, ktorý stretneme, zaznamenáme do `docs/TROUBLESHOOTING.md` spolu s riešením.**
-
-- Problém bez dokumentácie = zaseknutý problém
-- Ak nemáš dostatok detailov o riešení, vypýtaj si ich od osoby ktorá to vyriešila
-- Záznam slúži ako referenčná príručka pre budúce podobné situácie
-
-**Formát:**
-- Dátum, problém, príčina, riešenie, kto vyriešil
+## SWZA tasks (TASKS sheet) — FINÁLNE STAVY (potvrdené Zuzkou 23.6.2026)
+- **Master sheet**: `MASTER SWZA 2026` (oficiálny názov, ID: `14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s`)
+- **Tabuľka úloh**: hárok `TASKS` (gid `2099318786`) — NIKDY viac `TASKS_v2`! Premenovanie z `TASKS_v2` → `TASKS` 22.6.2026 je FINÁLNE
+- Žiadne ďalšie premenovávanie. Toto je teraz tak. Toto sa zmenilo, takto to je.
+- **Emaily vlastníkov**: v Org.Team
+- **NIKDY `+append`!** Vždy `values update` s explicitným range `TASKS!A{riadok}:J{riadok}` + `USER_ENTERED`
+- **Cron reminder** (job `80b6ff061606`): beží 22:00 daily cez `scripts/swza_task_notify.py` — používa `SHEET_NAME = "TASKS"` (správne, commit `e6b9a53` opravil). Posiela email ak je úloha stale > 4 dní. Zapisuje dátum do J stĺpca.
+- **n8n workflow** (`workflows/swza-task-notify-v1.json`): opravený 23.6.2026 — všetky `TASKS_v2` → `TASKS` (predtým error `Unable to parse range: TASKS_v2!A1:J1000`)
+- "Priraď na mňa" = OKAMŽITÝ zápis
+- Default deadline PR/marketing: 2026-09-15 (mesiac pred eventom 23-25.10.2026)
+- gws CLI: `+read`/`+append` NEEXISTUJÚ → raw Discovery API, output do `/tmp/x.json`
+- "Toto je hotovo, archivuj thread" = projektová archivácia

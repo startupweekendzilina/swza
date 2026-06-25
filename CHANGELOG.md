@@ -1,5 +1,21 @@
 # CHANGELOG.md
 
+## [0.7.4] — 2026-06-25
+
+### Fixed
+- `scripts/swza_task_notify.py` — **zoskupené remindre po osobe** (commit `076c64a`):
+  - Pravidlo Zuzky 25.6.2026: ak má vlastník 2+ stale úloh, pošle sa **JEDEN email so všetkými úlohami v odrážkach**, nie 2+ samostatné emaily.
+  - Pred: pre každú úlohu sa odosielal samostatný email. Vlastník s 3 úlohami dostal 3 emaily naraz.
+  - Po: 2-fázová logika: (1) `reminder_events[email] = list of (row_idx, task)`, (2) jeden `send_email()` / email so všetkými úlohami.
+  - Subject dynamický: `1× úloha čaká` vs `3× úloha čaká`.
+  - J stĺpec sa updatne len pre úlohy, ktoré sa reálne odoslali (ochrana pred polovičným J update).
+  - **Toto pravidlo sa nesmie meniť — je to anti-spam zábrana** (zapísané v AGENTS.md).
+
+### Diagnostika
+- 24.6.2026 cron `80b6ff061606` skončil s `last_status: error` (príčina neidentifikovaná — potrebný log).
+- 25.6.2026 ráno script spustený manuálne — 12 remindrov odoslaných, J stĺpce updatnuté na 2026-06-25.
+- Nasledujúci cron (25.6. 22:00) by mal zbehnúť úspešne s novou logikou, alebo o 4 dni (29.6.) kedy sa J stĺpce stanú stale.
+
 ## [0.7.3] — 2026-06-23
 
 ### Fixed

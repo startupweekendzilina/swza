@@ -1,5 +1,18 @@
 # CHANGELOG.md
 
+## [0.7.5] — 2026-06-25 (večer)
+
+### Fixed (CRITICAL)
+- **Dvojitá kópia scriptu** — `/home/node/.hermes/scripts/swza_task_notify.py` (ktorú reálne spúšťa cron `80b6ff061606`) mala stále starý kód so `SHEET_NAME = "TASKS_v2"` a `gws sheets +read` syntax. Môj commit `076c64a` opravil len `/home/node/swza/scripts/`, nie `~/.hermes/scripts/`. Následok: cron 22:00 padol s `Unable to parse range: TASKS_v2!A1:J1000`.
+  - **Oprava**: `cp /home/node/swza/scripts/swza_task_notify.py /home/node/.hermes/scripts/swza_task_notify.py` (sync 100%).
+  - **Ochrana do budúcna**: `assert SHEET_NAME == "TASKS"` na riadku 43 v oboch kópiách — ak sa niekedy vráti staré meno, script okamžite spadne (fail-loud).
+  - **Pravidlo v AGENTS.md**: po každej zmene `swza/scripts/` vždy `diff` oboch súborov a ak sa líšia, `cp` do `~/.hermes/scripts/`.
+
+### Diagnostics
+- Potvrdené cez `find / -name "swza_task_notify*" -type f`: 2 kópie.
+- Potvrdené cez `diff`: funkčný kód sa líšil (TASKS_v2 vs TASKS, +read vs values/get).
+- Potvrdené cez `python3 ~/.hermes/scripts/swza_task_notify.py --dry-run`: teraz načíta 36 úloh z TASKS bez erroru.
+
 ## [0.7.4] — 2026-06-25
 
 ### Fixed

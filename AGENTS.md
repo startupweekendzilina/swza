@@ -53,6 +53,11 @@
 - **Emaily vlastníkov**: v Org.Team
 - **NIKDY `+append`!** Vždy `values update` s explicitným range `TASKS!A{riadok}:J{riadok}` + `USER_ENTERED`
 - **Cron reminder** (job `80b6ff061606`): beží 22:00 daily cez `scripts/swza_task_notify.py` — používa `SHEET_NAME = "TASKS"` (správne, commit `e6b9a53` opravil). Posiela email ak je úloha stale > 4 dní. Zapisuje dátum do J stĺpca.
+- **DVOJITÁ KOPIA (25.6.2026 fix)** — script existuje na 2 miestach a MUSIA byť v sync:
+  - `/home/node/swza/scripts/swza_task_notify.py` (git repo, source of truth)
+  - `/home/node/.hermes/scripts/swza_task_notify.py` (kam chodí cron `80b6ff061606`)
+  - **Pri každej zmene** v `swza/scripts/` musíš manuálne `cp` aj do `~/.hermes/scripts/` — git sa tam nepoužíva. 25.6.2026 o 22:00 cron padol práve preto, lebo som opravil len `swza/scripts/` a zabudol na sync. **Pravidlo: po commite vždy `diff` oboch súborov. Ak sa líšia, okamžite kopíruj.**
+  - V `~/.hermes/scripts/` je `assert SHEET_NAME == "TASKS"` — ak sa niekedy vráti `TASKS_v2`, script okamžite spadne (fail-loud) namiesto tichého posielania 0 remindrov.
 - **n8n workflow** (`workflows/swza-task-notify-v1.json`): opravený 23.6.2026 — všetky `TASKS_v2` → `TASKS` (predtým error `Unable to parse range: TASKS_v2!A1:J1000`)
 - "Priraď na mňa" = OKAMŽITÝ zápis
 - Default deadline PR/marketing: 2026-09-15 (mesiac pred eventom 23-25.10.2026)

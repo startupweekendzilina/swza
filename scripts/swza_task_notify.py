@@ -2,17 +2,23 @@
 """
 SWZA Task Notification Script — v3 (opraveny)
 ----------------------------------------------
-Číta TASKS_v2 sheet, detekuje zmeny owner emailu / statusu,
-zoskupuje úlohy na osobu a posiela 1 email / osoba / typ udalosti.
-Owner stĺpec môže obsahovať viac emailov oddelených čiarkou.
+Číta TASKS sheet (Master sheet "MASTER SWZA 2026"), detekuje zmeny
+owner emailu / statusu, zoskupuje úlohy na osobu a posiela 1 email
+/ osoba / typ udalosti. Owner stĺpec môže obsahovať viac emailov
+oddelených čiarkou.
 
-Reminder logika: úloha stale > 4 dni → posiela sa reminder.
-Uloha sa považuje za stale ak je v stĺpci J prázdne ALEBO ak od
-posledného reminderu (stĺpec J) uplynulo > 4 dni.
+Reminder logika: úloha stale > 4 dní → posiela sa zoskupený reminder
+(1 email / osoba so všetkými jej stale úlohami v odrážkach).
+Úloha sa považuje za stale ak je v stĺpci J prázdne ALEBO ak od
+posledného reminderu (stĺpec J) uplynulo > 4 dní.
 
 Použitie:
     python3 swza_task_notify.py          # normálny beh (+ emaily)
     python3 swza_task_notify.py --dry-run # bez odosielania emailov
+
+Cesta pre cron: ~/.hermes/scripts/swza_task_notify.py
+POVINNE: drž v synchronizácii s /home/node/swza/scripts/swza_task_notify.py
+(commit 076c64a zavedol pravidlo 1 email / osoba — nemeňte osamote).
 """
 
 import json
@@ -29,6 +35,15 @@ SHEET_NAME    = "TASKS"
 REMINDER_DAYS = 4
 SYSTEM_NAME   = "SWZA Robot"
 FROM_EMAIL    = "startupweekend.zilina@gmail.com"
+
+# Hard guard — ak sa niekedy vráti staré meno, okamžite to spadni
+# (namiesto tichého posielania 0 remindrov / spamovania zlým sheetom).
+# Pridané 25.6.2026 po tom, čo sa v ~/.hermes/scripts/ objavila stará
+# kópia s "TASKS_v2" a cron 22:00 padol s "Unable to parse range".
+assert SHEET_NAME == "TASKS", (
+    f"KRITICKÁ CHYBA: SHEET_NAME={SHEET_NAME!r} — musí byť 'TASKS'. "
+    f"Skontroluj commit 076c64a a pravidlo v AGENTS.md."
+)
 
 # Stĺpce
 COL_ID       = "A"

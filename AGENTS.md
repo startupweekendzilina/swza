@@ -53,7 +53,6 @@
 - **Emaily vlastníkov**: v Org.Team
 - **NIKDY `+append`!** Vždy `values update` s explicitným range `TASKS!A{riadok}:J{riadok}` + `USER_ENTERED`
 - **Cron reminder** (job `80b6ff061606`): beží 22:00 daily cez `scripts/swza_task_notify.py` — používa `SHEET_NAME = "TASKS"` (správne, commit `e6b9a53` opravil). Posiela email ak je úloha stale > 4 dní. Zapisuje dátum do J stĺpca.
-- **PRAVIDLO 25.6.2026 — NESPAMOVAŤ ĽUDÍ (zoskupené remindre)**: ak má vlastník 2+ stale úloh, **vždy sa pošle JEDEN email so všetkými úlohami v odrážkach** — nie 2+ samostatné emaily. Rovnaké pravidlo platí aj pre assignment a status vetvy. Implementované v `swza_task_notify.py` ako 2-fázová logika: (1) nazbieraj `reminder_events[email] = list of tasks`, (2) pošli 1 email / email. Subject dynamický: `1× úloha čaká` vs `3× úloha čaká`. Commit `076c64a`. **Toto pravidlo sa nesmie meniť — je to anti-spam zábrana.**
 - **n8n workflow** (`workflows/swza-task-notify-v1.json`): opravený 23.6.2026 — všetky `TASKS_v2` → `TASKS` (predtým error `Unable to parse range: TASKS_v2!A1:J1000`)
 - "Priraď na mňa" = OKAMŽITÝ zápis
 - Default deadline PR/marketing: 2026-09-15 (mesiac pred eventom 23-25.10.2026)

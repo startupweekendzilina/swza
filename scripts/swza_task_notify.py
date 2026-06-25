@@ -307,12 +307,17 @@ Pozri si zmeny a prípadne ďalej reaguj v Sheete:
     if not assign_events and not status_events:
         print("\n  Žiadne nové udalosti.")
 
-    # ── 5. REMINDER LOGIKA (4 dni) ───────────────────────────────────────
+    # ── 5. REMINDER LOGIKA (4 dni) — ZOSKUPOVANÁ PO OSOBE ───────────────
+    # Pravidlo Zuzky 25.6.2026: 1 email / osoba / beh — všetky stale úlohy
+    # daného vlastníka idú do jedného emailu ako odrážky. 2+ úloh = 1 email.
+    # (Netreba spamovať ľudí.)
     print(f"\n  Kontrola stale úloh (> {REMINDER_DAYS} dní bez reminderu):")
     now = datetime.now()
-    reminder_count = 0
 
-    reminder_rows = []  # (row_num, task_dict) ktorým treba updatnúť J stĺpec
+    # Fáza 1: nazbieraj remindre zoskupené podľa emailu
+    # reminder_events[email] = list of (row_idx, task)
+    reminder_events: dict[str, list[tuple[int, dict]]] = defaultdict(list)
+    reminder_rows: list[tuple[int, str]] = []  # (row_idx, date_str) pre J stĺpec
 
     for row_idx, task in zip(row_nums, rows):
         t_id     = clean(task.get("ID", ""))
@@ -364,35 +369,52 @@ Pozri si zmeny a prípadne ďalej reaguj v Sheete:
                 continue
 
         if should_remind:
-            task_deadline = task.get("Deadline", "")
             for email in t_emails:
-                subject = (
-                    f"[SWZA] Pripomienka: v#{t_id} — {task.get('Úloha','')} "
-                    f"(uz {REMINDER_DAYS}+ dní)"
+                reminder_events[email].append((row_idx, task))
+
+    # Fáza 2: pošli JEDEN email / osoba so všetkými jej stale úlohami
+    if reminder_events:
+        print(f"\n  Remindre — 1 email / osoba ({len(reminder_events)} osôb):")
+        for email, entries in reminder_events.items():
+            task_lines = ""
+            row_idxs_to_update: list[int] = []
+            for row_idx, t in entries:
+                task_lines += (
+                    f"  • {t.get('ID','')}: {t.get('Úloha','')}\n"
+                    f"      Deadline: {t.get('Deadline','') or '—'} | "
+                    f"Stav: {t.get('Status','') or '—'}\n"
                 )
-                body = f"""Zdravim!
+                row_idxs_to_update.append(row_idx)
 
-Automatická pripomenutie — tvoja úloha uz {REMINDER_DAYS} dni nema aktualizovany status:
+            n = len(entries)
+            if n > 1:
+                subject = f"[SWZA] Pripomienka: {n}× úloha čaká na aktualizáciu"
+            else:
+                e0 = entries[0][1]
+                subject = (
+                    f"[SWZA] Pripomienka: v#{e0.get('ID','')} — "
+                    f"{e0.get('Úloha','')} (uz {REMINDER_DAYS}+ dní)"
+                )
 
-  {t_id}: {task.get('Úloha','')}
-  Deadline: {task_deadline}
-  Aktuálny stav: {t_stat}
+            body = f"""Ahoj!
 
-Prosím aktualizuj status alebo daj vedieť, ak potrebuješ pomoc.
+Automatická pripomienka — tvoje úlohy nemali {REMINDER_DAYS}+ dní aktualizovaný status:
+
+{task_lines}
+Prosím, aktualizuj status priamo v Sheete (alebo daj vedieť, ak potrebuješ pomoc):
 👉 https://docs.google.com/spreadsheets/d/14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s/edit?gid=2099318786#gid=2099318786
 
 --
 {SYSTEM_NAME}"""
 
-                print(f"    {t_id} → {email}: stale >{REMINDER_DAYS} dní, posielam reminder")
-                if dry_run:
-                    print(f"    [DRY RUN] {subject}")
-                else:
-                    recipient = test_email if test_email else email
-                    ok = send_email(recipient, subject, body)
-                    if ok:
+            print(f"    {email} → {n} úloh (1 email)")
+            if dry_run:
+                print(f"    [DRY RUN] Subject: {subject}")
+            else:
+                recipient = test_email if test_email else email
+                if send_email(recipient, subject, body):
+                    for row_idx in row_idxs_to_update:
                         reminder_rows.append((row_idx, now.strftime("%Y-%m-%d")))
-                        reminder_count += 1
 
     # ── 6. Update J stĺpca ───────────────────────────────────────────────
     if reminder_rows:
@@ -406,11 +428,12 @@ Prosím aktualizuj status alebo daj vedieť, ak potrebuješ pomoc.
 
     # ── 7. Summary ──────────────────────────────────────────────────────
     total_events = len(assign_events) + len(status_events)
+    total_reminder_tasks = sum(len(v) for v in reminder_events.values())
     print(f"\n{'='*60}")
     print(f"  Úloh: {len(rows)}")
     print(f"  Assignmentov: {len(assign_events)} osôb / {sum(len(v) for v in assign_events.values())} úloh")
     print(f"  Status zmien: {len(status_events)} osôb")
-    print(f"  Remindere: {reminder_count}")
+    print(f"  Remindere: {len(reminder_events)} emailov / {total_reminder_tasks} úloh")
     print(f"  {'[DRY RUN — nič nebolo odoslané]' if dry_run else '[HOTOVO]'}")
 
     if not dry_run:

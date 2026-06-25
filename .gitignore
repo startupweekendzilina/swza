@@ -4,3 +4,7 @@
 __pycache__/
 *.pyc
 opencode.json
+# PARA asset bins — markdowny commitujeme, binárky (PDF/JPG) nie
+docs/PARA/**/*.pdf
+docs/PARA/**/*.jpg
+docs/PARA/**/*.png

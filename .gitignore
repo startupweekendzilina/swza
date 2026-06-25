@@ -1,4 +1,6 @@
 .env
 *.tmp
 *.log
+__pycache__/
+*.pyc
 opencode.json

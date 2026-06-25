@@ -19,13 +19,13 @@
       "parameters": {
         "operation": "read",
         "documentId": "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s",
-        "sheetName": "TASKS_v2",
+        "sheetName": "TASKS",
         "options": {
           "rowStart": "2"
         }
       },
       "id": "sheets-tasks",
-      "name": "Read TASKS_v2",
+      "name": "Read TASKS",
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.2,
       "position": [340, 300],
@@ -59,7 +59,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// Read current TASKS_v2\nconst tasks = $input.all();\n// Read previous state\nconst prevStateInput = $('Read State Tracker').all();\n\n// Build prev state map: task_id -> {owner_email, status}\nconst prevState = {};\nfor (const row of prevStateInput) {\n  const id = row.json.A;\n  if (id) prevState[id] = { owner_email: row.json.B, status: row.json.C };\n}\n\nconst now = new Date().toISOString();\nconst results = [];\nconst updateRows = [];\n\nfor (const task of tasks) {\n  const id = task.json.A;\n  const task_name = task.json.B;\n  const owner_email = task.json.E;\n  const status = task.json.F;\n  const deadline = task.json.H;\n\n  if (!id) continue;\n\n  const prev = prevState[id];\n  const prevOwner = prev ? prev.owner_email : null;\n  const prevStatus = prev ? prev.status : null;\n\n  // CASE 1: New task (new ID, new owner)\n  if (!prevOwner && owner_email) {\n    results.push({\n      json: { id, task_name, owner_email, status, deadline,\n              action: 'new_assignment', change_field: 'owner', new_value: status }\n    });\n  }\n  // CASE 2: Owner changed\n  else if (prevOwner !== owner_email && owner_email) {\n    results.push({\n      json: { id, task_name, owner_email, status, deadline,\n              action: 'owner_changed', change_field: 'owner', prev_value: prevOwner, new_value: owner_email }\n    });\n  }\n  // CASE 3: Status changed\n  else if (prevStatus !== status && status) {\n    results.push({\n      json: { id, task_name, owner_email, status, deadline,\n              action: 'status_changed', change_field: 'status', prev_value: prevStatus, new_value: status }\n    });\n  }\n\n  // Always update state tracker\n  updateRows.push({\n    A: id, B: owner_email || prevOwner, C: status || prevStatus, D: now\n  });\n}\n\nreturn results.length > 0 ? results : [{ json: { message: 'no_changes', count: 0 } }];"
+        "jsCode": "// Read current TASKS\nconst tasks = $input.all();\n// Read previous state\nconst prevStateInput = $('Read State Tracker').all();\n\n// Build prev state map: task_id -> {owner_email, status}\nconst prevState = {};\nfor (const row of prevStateInput) {\n  const id = row.json.A;\n  if (id) prevState[id] = { owner_email: row.json.B, status: row.json.C };\n}\n\nconst now = new Date().toISOString();\nconst results = [];\nconst updateRows = [];\n\nfor (const task of tasks) {\n  const id = task.json.A;\n  const task_name = task.json.B;\n  const owner_email = task.json.E;\n  const status = task.json.F;\n  const deadline = task.json.H;\n\n  if (!id) continue;\n\n  const prev = prevState[id];\n  const prevOwner = prev ? prev.owner_email : null;\n  const prevStatus = prev ? prev.status : null;\n\n  // CASE 1: New task (new ID, new owner)\n  if (!prevOwner && owner_email) {\n    results.push({\n      json: { id, task_name, owner_email, status, deadline,\n              action: 'new_assignment', change_field: 'owner', new_value: status }\n    });\n  }\n  // CASE 2: Owner changed\n  else if (prevOwner !== owner_email && owner_email) {\n    results.push({\n      json: { id, task_name, owner_email, status, deadline,\n              action: 'owner_changed', change_field: 'owner', prev_value: prevOwner, new_value: owner_email }\n    });\n  }\n  // CASE 3: Status changed\n  else if (prevStatus !== status && status) {\n    results.push({\n      json: { id, task_name, owner_email, status, deadline,\n              action: 'status_changed', change_field: 'status', prev_value: prevStatus, new_value: status }\n    });\n  }\n\n  // Always update state tracker\n  updateRows.push({\n    A: id, B: owner_email || prevOwner, C: status || prevStatus, D: now\n  });\n}\n\nreturn results.length > 0 ? results : [{ json: { message: 'no_changes', count: 0 } }];"
       },
       "id": "code-detect",
       "name": "Detect Changes",
@@ -69,7 +69,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// Rebuild full state tracker from current TASKS_v2\nconst tasks = $input.all();\nconst now = new Date().toISOString();\nconst rows = [];\n\nfor (const task of tasks) {\n  const id = task.json.A;\n  if (!id) continue;\n  rows.push({\n    A: id,\n    B: task.json.E || '',\n    C: task.json.F || '',\n    D: now\n  });\n}\n\nreturn rows.map(r => ({ json: r }));"
+        "jsCode": "// Rebuild full state tracker from current TASKS\nconst tasks = $input.all();\nconst now = new Date().toISOString();\nconst rows = [];\n\nfor (const task of tasks) {\n  const id = task.json.A;\n  if (!id) continue;\n  rows.push({\n    A: id,\n    B: task.json.E || '',\n    C: task.json.F || '',\n    D: now\n  });\n}\n\nreturn rows.map(r => ({ json: r }));"
       },
       "id": "code-state",
       "name": "Rebuild State",
@@ -218,13 +218,13 @@
       "parameters": {
         "operation": "read",
         "documentId": "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s",
-        "sheetName": "TASKS_v2",
+        "sheetName": "TASKS",
         "options": {
           "rowStart": "2"
         }
       },
       "id": "sheets-read-reminders",
-      "name": "Read TASKS_v2 for Reminders",
+      "name": "Read TASKS for Reminders",
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.2,
       "position": [580, 820],
@@ -298,7 +298,7 @@
       "parameters": {
         "operation": "append",
         "documentId": "14wTR5XREjKxSXi6B4R81x669ITJ9fPYDl9vrNwM435s",
-        "sheetName": "TASKS_v2",
+        "sheetName": "TASKS",
         "columns": {
           "mappingMode": "defineBelow",
           "valueInput": "USER_ENTERED",
@@ -324,12 +324,12 @@
   "connections": {
     "Schedule Trigger (every 15 min)": {
       "main": [
-        [{ "node": "Read TASKS_v2", "type": "main", "index": 0 }],
+        [{ "node": "Read TASKS", "type": "main", "index": 0 }],
         [{ "node": "Read State Tracker", "type": "main", "index": 0 }],
-        [{ "node": "Read TASKS_v2 for Reminders", "type": "main", "index": 0 }]
+        [{ "node": "Read TASKS for Reminders", "type": "main", "index": 0 }]
       ]
     },
-    "Read TASKS_v2": {
+    "Read TASKS": {
       "main": [
         [{ "node": "Detect Changes", "type": "main", "index": 0 }]
       ]
@@ -375,7 +375,7 @@
         []
       ]
     },
-    "Read TASKS_v2 for Reminders": {
+    "Read TASKS for Reminders": {
       "main": [
         [{ "node": "Find Stale Tasks", "type": "main", "index": 0 }]
       ]

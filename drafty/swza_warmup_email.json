@@ -1,0 +1,3855 @@
+Using keyring backend: file
+{
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "endIndex": 87,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 81,
+              "startIndex": 1,
+              "textRun": {
+                "content": "Subject: Zaži víkend, kde sa mení budúcnosť! Pridaj sa k Startup Weekend Žilina ",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 82,
+              "startIndex": 81,
+              "textRun": {
+                "content": "#",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 87,
+              "startIndex": 82,
+              "textRun": {
+                "content": "11! \n",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "unit": "PT"
+            },
+            "spacingMode": "NEVER_COLLAPSE"
+          }
+        },
+        "startIndex": 1
+      },
+      {
+        "endIndex": 168,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 168,
+              "startIndex": 87,
+              "textRun": {
+                "content": "Podsubject: Zúčastniť sa môžeš aj prípravnej warmup udalosti a to úplne ZADARMO!\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spacingMode": "NEVER_COLLAPSE"
+          }
+        },
+        "startIndex": 87
+      },
+      {
+        "endIndex": 176,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 176,
+              "startIndex": 168,
+              "textRun": {
+                "content": "Ahojte,\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 168
+      },
+      {
+        "endIndex": 434,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 400,
+              "startIndex": 176,
+              "textRun": {
+                "content": "s potešením Vám prinášame informácie o nadchádzajúcom podujatí, ktoré Vás môže inšpirovať a otvoriť nové príležitosti. Staňte sa súčasťou 54 hodinového hackathonu, plného inovácií, kreativity a networkingových príležitostí. ",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 433,
+              "startIndex": 400,
+              "textRun": {
+                "content": "Startup Weekend Žilina #11 je tu!",
+                "textStyle": {
+                  "bold": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://startupweekendzilina.sk/"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 434,
+              "startIndex": 433,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 176
+      },
+      {
+        "endIndex": 463,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 463,
+              "startIndex": 434,
+              "textRun": {
+                "content": "Kedy? 18. - 20. október 2024\n",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "alignment": "CENTER",
+            "avoidWidowAndOrphan": false,
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "unit": "PT"
+            },
+            "spacingMode": "NEVER_COLLAPSE"
+          }
+        },
+        "startIndex": 434
+      },
+      {
+        "endIndex": 525,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 507,
+              "startIndex": 463,
+              "textRun": {
+                "content": "Kde? Inžinierske centrum Siemens Mobility - ",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 524,
+              "startIndex": 507,
+              "textRun": {
+                "content": "NORDCITY Obchodná",
+                "textStyle": {
+                  "bold": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.reinoo.com/projekty/nordcity-obchodna"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 525,
+              "startIndex": 524,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spacingMode": "NEVER_COLLAPSE"
+          }
+        },
+        "startIndex": 463
+      },
+      {
+        "endIndex": 1001,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 1001,
+              "startIndex": 525,
+              "textRun": {
+                "content": "Podujatie je určené pre všetkých nadšencov, či už si programátor, UXáčka, dizajnér, marketér, obchodníčka, odborník na právo alebo jednoducho kreatívna duša. Príď a predstav svoj nápad, zvaliduj ho, vytvor prototyp a spolupracuj v tímoch pod vedením skúsených mentorov z rôzych oblastí biznisu. Nemusíš mať vlastný nápad, môžeš sa pripojiť aj k inému tímu, ktorý ťa inšpiruje a môžeš tak rozvíjať svoju osobnosť. Možno sa staneš spoluzakladateľom ďalšieho úspešného biznisu. \n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 525
+      },
+      {
+        "endIndex": 1019,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 1019,
+              "startIndex": 1001,
+              "textRun": {
+                "content": "Prečo sa zapojiť?\n",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1001
+      },
+      {
+        "endIndex": 1135,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.at30wah1naxs",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 1135,
+              "startIndex": 1019,
+              "textRun": {
+                "content": "Podporíš out-of-box myslenie ako doplnok k logickému mysleniu. Výsledkom je búranie domnelých hraníc, čo je možné. \n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1019
+      },
+      {
+        "endIndex": 1295,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.at30wah1naxs",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 1295,
+              "startIndex": 1135,
+              "textRun": {
+                "content": "Máš jedinečnú možnosť poskladať tím a sústredene sa venovať práci počas celého víkendu. O priestor, technické zabezpečenie sa starajú organizátori a partneri. \n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1135
+      },
+      {
+        "endIndex": 1454,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.at30wah1naxs",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 1454,
+              "startIndex": 1295,
+              "textRun": {
+                "content": "Navyše stretneš mentorov, skúsených odborníkov z praxe, ktorí ti poskytnú cennú spätnú väzbu a môžu pomôcť v rámci networkingu pri rozvíjaní ďalšieho biznisu.\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1295
+      },
+      {
+        "endIndex": 1531,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.at30wah1naxs",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 1531,
+              "startIndex": 1454,
+              "textRun": {
+                "content": "Získaš nové kontakty, skúsenosti, zručnosti v oblasti podnikania a startupov\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1454
+      },
+      {
+        "endIndex": 1663,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.at30wah1naxs",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 1662,
+              "startIndex": 1531,
+              "textRun": {
+                "content": "A okrem toho, si užiješ kopec zábavy a uvoľnenej atmosféry, ktorá ti pomôže naplno využiť svoju kreativitu a vytvárať skvelé nápady",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 1663,
+              "startIndex": 1662,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1531
+      },
+      {
+        "endIndex": 1738,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 1738,
+              "startIndex": 1663,
+              "textRun": {
+                "content": "Jedinečná 30% zľava len pre IdeaLab študentov - použi kód pri registrácii \n",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "unit": "PT"
+            },
+            "spacingMode": "NEVER_COLLAPSE"
+          }
+        },
+        "startIndex": 1663
+      },
+      {
+        "endIndex": 1748,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 1740,
+              "startIndex": 1738,
+              "textRun": {
+                "content": " “",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 1746,
+              "startIndex": 1740,
+              "textRun": {
+                "content": "DASATO",
+                "textStyle": {
+                  "bold": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 1748,
+              "startIndex": 1746,
+              "textRun": {
+                "content": "”\n",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "unit": "PT"
+            },
+            "spacingMode": "NEVER_COLLAPSE"
+          }
+        },
+        "startIndex": 1738
+      },
+      {
+        "endIndex": 1769,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 1768,
+              "startIndex": 1748,
+              "textRun": {
+                "content": "CHCEM SA REGISTROVAŤ",
+                "textStyle": {
+                  "bold": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.startupweekendzilina.sk/"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 1769,
+              "startIndex": 1768,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1748
+      },
+      {
+        "endIndex": 1789,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 1789,
+              "startIndex": 1769,
+              "textRun": {
+                "content": "Cena lístka zahŕňa:\n",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1769
+      },
+      {
+        "endIndex": 1831,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.b39euhhyzic",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 1790,
+              "startIndex": 1789,
+              "textRun": {
+                "content": "p",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 1831,
+              "startIndex": 1790,
+              "textRun": {
+                "content": "riestor a miesto na prácu na celý víkend\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1789
+      },
+      {
+        "endIndex": 1892,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.b39euhhyzic",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 1892,
+              "startIndex": 1831,
+              "textRun": {
+                "content": "mentoring od skúsených odborníkov z rôznych business oblastí\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1831
+      },
+      {
+        "endIndex": 1947,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.b39euhhyzic",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 1947,
+              "startIndex": 1892,
+              "textRun": {
+                "content": "strava na celý víkend (2x večera, 2x raňajky, 2x obed)\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1892
+      },
+      {
+        "endIndex": 1980,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.b39euhhyzic",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 1980,
+              "startIndex": 1947,
+              "textRun": {
+                "content": "káva, čaj, či energetické nápoje\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1947
+      },
+      {
+        "endIndex": 2022,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.b39euhhyzic",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 2022,
+              "startIndex": 1980,
+              "textRun": {
+                "content": "jedinečné tričko \"Startup Weekend Žilina\"\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 1980
+      },
+      {
+        "endIndex": 2042,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.b39euhhyzic",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 2042,
+              "startIndex": 2022,
+              "textRun": {
+                "content": "kancelárske potreby\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 2022
+      },
+      {
+        "endIndex": 2055,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.b39euhhyzic",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 2055,
+              "startIndex": 2042,
+              "textRun": {
+                "content": "dobrú náladu\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 2042
+      },
+      {
+        "endIndex": 2092,
+        "paragraph": {
+          "bullet": {
+            "listId": "kix.b39euhhyzic",
+            "textStyle": {
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          },
+          "elements": [
+            {
+              "endIndex": 2092,
+              "startIndex": 2055,
+              "textRun": {
+                "content": "a rôzne darčeky od našich partnerov.\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 2055
+      },
+      {
+        "endIndex": 2185,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 2183,
+              "startIndex": 2092,
+              "textRun": {
+                "content": "Nezmeškaj túto jedinečnú príležitosť a zaregistruj sa čo najskôr! Počet miest je obmedzený.",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2184,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.3z18sp1wzqhq",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              },
+              "startIndex": 2183
+            },
+            {
+              "endIndex": 2185,
+              "startIndex": 2184,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 2092
+      },
+      {
+        "endIndex": 2264,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 2264,
+              "startIndex": 2185,
+              "textRun": {
+                "content": "______________________________________________________________________________\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 2185
+      },
+      {
+        "endIndex": 2311,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 2311,
+              "startIndex": 2264,
+              "textRun": {
+                "content": "Startup Weekend Žilina WARMUP “Fresh or Trash”\n",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 2264
+      },
+      {
+        "endIndex": 3042,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 2414,
+              "startIndex": 2311,
+              "textRun": {
+                "content": "Pozor! Okrem toho sa pripravuje aj skvelý event, ako predpríprava na Startup Weekend Žilina - špeciálna",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2455,
+              "startIndex": 2414,
+              "textRun": {
+                "content": " WARMUP udalosť s názvom “Fresh or Trash”",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://fb.me/e/2oXJSufCm"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2534,
+              "startIndex": 2455,
+              "textRun": {
+                "content": ", ktorá sa bude konať dva týždne pred samotným Startup Weekend Žilina, a to už ",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2549,
+              "startIndex": 2534,
+              "textRun": {
+                "content": "02/Októbra 2024",
+                "textStyle": {
+                  "bold": true,
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2552,
+              "startIndex": 2549,
+              "textRun": {
+                "content": " v ",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2560,
+              "startIndex": 2552,
+              "textRun": {
+                "content": "PostCafe",
+                "textStyle": {
+                  "bold": true,
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2562,
+              "startIndex": 2560,
+              "textRun": {
+                "content": ", ",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2580,
+              "startIndex": 2562,
+              "textRun": {
+                "content": "NORDCITY Poštová 1",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.reinoo.com/projekty/nordcity-postova"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2854,
+              "startIndex": 2580,
+              "textRun": {
+                "content": ". Môžeš sa tešiť na networking, dynamické prednášky a workshopy, malé občerstvenie, a jedinečné “roastovanie” vybraných nápadov skúsenými podnikateľmi. Aj ty sa môžeš aktívne zapojiť - klásť otázky, alebo odprezentovať svoj nápad a získať tak cennú spätnú väzbu, a to úplne ",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2861,
+              "startIndex": 2854,
+              "textRun": {
+                "content": "ZADARMO",
+                "textStyle": {
+                  "bold": true,
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 2944,
+              "startIndex": 2861,
+              "textRun": {
+                "content": "!\u000b\u000bMáš nápad? Odbúraj strach, zaregistruj sa a príď ho odprezentovať pred porotou. ",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3041,
+              "startIndex": 2944,
+              "textRun": {
+                "content": "Zo všetkých prihlásených projektov vyberieme štyri najlepšie, ktoré budú “roastované” odborníkmi.",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3042,
+              "startIndex": 3041,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 2311
+      },
+      {
+        "endIndex": 3064,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3063,
+              "startIndex": 3042,
+              "textRun": {
+                "content": "REGISTRÁCIA NA WARMUP",
+                "textStyle": {
+                  "bold": true,
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://docs.google.com/forms/d/e/1FAIpQLSd3DccMI5ZO14qxL_9nRHbSYzKTaJPeXkjtl3bHIJ0tknRJQQ/viewform?fbclid=IwY2xjawFJLJ1leHRuA2FlbQIxMAABHbnlShzIdqvW0yJVpRQFHW2wgUSuAQhgtK5P_1RjOj8G-8U8UxbBQSexMQ_aem_Dj4jpWi9VlinNt6OOUAtNA"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3064,
+              "startIndex": 3063,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "bold": true,
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3042
+      },
+      {
+        "endIndex": 3140,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3140,
+              "startIndex": 3064,
+              "textRun": {
+                "content": "___________________________________________________________________________\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3064
+      },
+      {
+        "endIndex": 3218,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3161,
+              "startIndex": 3140,
+              "textRun": {
+                "content": "Tešíme sa na Vás, či ",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3167,
+              "startIndex": 3161,
+              "textRun": {
+                "content": "už na ",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3175,
+              "startIndex": 3167,
+              "textRun": {
+                "content": "Warmupe ",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://fb.me/e/2oXJSufCm"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3190,
+              "startIndex": 3175,
+              "textRun": {
+                "content": "alebo priamo na",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3216,
+              "startIndex": 3190,
+              "textRun": {
+                "content": " Startup Weekend Žilina 11",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://fb.me/e/4yPAxDHPf"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3217,
+              "startIndex": 3216,
+              "textRun": {
+                "content": "!",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3218,
+              "startIndex": 3217,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "alignment": "START",
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3140
+      },
+      {
+        "endIndex": 3337,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3336,
+              "startIndex": 3218,
+              "textRun": {
+                "content": "Podporujeme Vašu kreativitu a inovatívne myslenie. Pridajte sa k nám a zažite dni, ktoré môžu zmeniť Vašu budúcnosť! \u000b",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3337,
+              "startIndex": 3336,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3218
+      },
+      {
+        "endIndex": 3441,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3382,
+              "startIndex": 3337,
+              "textRun": {
+                "content": "Viac informácií nájdeš na sociálnych sieťach ",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3404,
+              "startIndex": 3382,
+              "textRun": {
+                "content": "Startup Weekend Žilina",
+                "textStyle": {
+                  "bold": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://linktr.ee/startupweekendzilina"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3412,
+              "startIndex": 3404,
+              "textRun": {
+                "content": " a webe:",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3413,
+              "startIndex": 3412,
+              "textRun": {
+                "content": " ",
+                "textStyle": {
+                  "link": {
+                    "url": "http://www.startupweekendzilina.sk"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3440,
+              "startIndex": 3413,
+              "textRun": {
+                "content": "www.startupweekendzilina.sk",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "http://www.startupweekendzilina.sk"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3441,
+              "startIndex": 3440,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3337
+      },
+      {
+        "endIndex": 3442,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3442,
+              "startIndex": 3441,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3441
+      },
+      {
+        "endIndex": 3443,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3443,
+              "startIndex": 3442,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3442
+      },
+      {
+        "endIndex": 3444,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3444,
+              "startIndex": 3443,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "bold": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3443
+      },
+      {
+        "endIndex": 3452,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3452,
+              "startIndex": 3444,
+              "textRun": {
+                "content": "Linky: \n",
+                "textStyle": {
+                  "bold": true,
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3444
+      },
+      {
+        "endIndex": 3530,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3490,
+              "startIndex": 3452,
+              "textRun": {
+                "content": "Sociálne siete Startup Weekend Žilina:",
+                "textStyle": {
+                  "bold": true,
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3491,
+              "startIndex": 3490,
+              "textRun": {
+                "content": " ",
+                "textStyle": {
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3499,
+              "startIndex": 3491,
+              "textRun": {
+                "content": "Facebook",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "italic": true,
+                  "link": {
+                    "url": "https://www.facebook.com/StartupWeekendZilina/"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3501,
+              "startIndex": 3499,
+              "textRun": {
+                "content": ", ",
+                "textStyle": {
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3510,
+              "startIndex": 3501,
+              "textRun": {
+                "content": "Instagram",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "italic": true,
+                  "link": {
+                    "url": "https://www.instagram.com/startupweekendzilina/"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3512,
+              "startIndex": 3510,
+              "textRun": {
+                "content": ", ",
+                "textStyle": {
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3520,
+              "startIndex": 3512,
+              "textRun": {
+                "content": "LinkedIN",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "italic": true,
+                  "link": {
+                    "url": "https://www.linkedin.com/company/startup-weekend-%C5%BEilina/"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3522,
+              "startIndex": 3520,
+              "textRun": {
+                "content": ", ",
+                "textStyle": {
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3529,
+              "startIndex": 3522,
+              "textRun": {
+                "content": "Twitter",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "italic": true,
+                  "link": {
+                    "url": "https://mobile.twitter.com/swzilina"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3530,
+              "startIndex": 3529,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3452
+      },
+      {
+        "endIndex": 3561,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3552,
+              "startIndex": 3530,
+              "textRun": {
+                "content": "Všetky linky v jednom:",
+                "textStyle": {
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3560,
+              "startIndex": 3552,
+              "textRun": {
+                "content": "Linktree",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "blue": 0.8,
+                        "green": 0.33333334,
+                        "red": 0.06666667
+                      }
+                    }
+                  },
+                  "italic": true,
+                  "link": {
+                    "url": "https://linktr.ee/startupweekendzilina"
+                  },
+                  "underline": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3561,
+              "startIndex": 3560,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "unit": "PT"
+            },
+            "indentStart": {
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3530
+      },
+      {
+        "endIndex": 3580,
+        "paragraph": {
+          "elements": [
+            {
+              "endIndex": 3579,
+              "startIndex": 3561,
+              "textRun": {
+                "content": "Grafika: v emaily ",
+                "textStyle": {
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "endIndex": 3580,
+              "startIndex": 3579,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "italic": true,
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "unit": "PT"
+            },
+            "indentStart": {
+              "unit": "PT"
+            },
+            "namedStyleType": "NORMAL_TEXT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        },
+        "startIndex": 3561
+      }
+    ]
+  },
+  "documentId": "1PhhLODvxOtEcB63UGHqY96xzw75okfE5ZsEEd_8GUAw",
+  "documentStyle": {
+    "background": {
+      "color": {}
+    },
+    "documentFormat": {
+      "documentMode": "PAGES"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageNumberStart": 1,
+    "pageSize": {
+      "height": {
+        "magnitude": 841.8897637795277,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 595.2755905511812,
+        "unit": "PT"
+      }
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "inlineObjects": {
+    "kix.3z18sp1wzqhq": {
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED",
+            "width": {
+              "unit": "PT"
+            }
+          },
+          "imageProperties": {
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf8VTSV06Bxdp_z_MHgJ5PV6caAMzKEFTPZyGsAexMl2koJipxdP-ENwDKsOEiMbG9aeyUIw-wejEMImKFVkUxAGQbZEuPzbtqTXF1W_1ezEY6ZBqh7HDaluOJWB5nTD5kwuuukxElD16_4mjksic2gtTn0NTEskINv8hEOAPQtmQk0rD8=s2048?key=GHWXVg_x5j81oSQq9q4zrg",
+            "cropProperties": {}
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "size": {
+            "height": {
+              "magnitude": 31.5,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 111.75,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      "objectId": "kix.3z18sp1wzqhq"
+    }
+  },
+  "lists": {
+    "kix.at30wah1naxs": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          }
+        ]
+      }
+    },
+    "kix.b39euhhyzic": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          }
+        ]
+      }
+    },
+    "kix.s6cfngpdcgcb": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%0",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%1",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%2",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%3",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%4",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%5",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%6",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%7",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%8",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          }
+        ]
+      }
+    },
+    "kix.s8q6qhvulu9": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%0",
+            "glyphSymbol": "-",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%1",
+            "glyphSymbol": "-",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%2",
+            "glyphSymbol": "-",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%3",
+            "glyphSymbol": "-",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%4",
+            "glyphSymbol": "-",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%5",
+            "glyphSymbol": "-",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%6",
+            "glyphSymbol": "-",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%7",
+            "glyphSymbol": "-",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphFormat": "%8",
+            "glyphSymbol": "-",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          }
+        ]
+      }
+    },
+    "kix.yeqf00bbqnrj": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "startNumber": 1,
+            "textStyle": {
+              "underline": false
+            }
+          }
+        ]
+      }
+    }
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "paragraphStyle": {
+          "alignment": "START",
+          "avoidWidowAndOrphan": true,
+          "borderBetween": {
+            "color": {},
+            "dashStyle": "SOLID",
+            "padding": {
+              "unit": "PT"
+            },
+            "width": {
+              "unit": "PT"
+            }
+          },
+          "borderBottom": {
+            "color": {},
+            "dashStyle": "SOLID",
+            "padding": {
+              "unit": "PT"
+            },
+            "width": {
+              "unit": "PT"
+            }
+          },
+          "borderLeft": {
+            "color": {},
+            "dashStyle": "SOLID",
+            "padding": {
+              "unit": "PT"
+            },
+            "width": {
+              "unit": "PT"
+            }
+          },
+          "borderRight": {
+            "color": {},
+            "dashStyle": "SOLID",
+            "padding": {
+              "unit": "PT"
+            },
+            "width": {
+              "unit": "PT"
+            }
+          },
+          "borderTop": {
+            "color": {},
+            "dashStyle": "SOLID",
+            "padding": {
+              "unit": "PT"
+            },
+            "width": {
+              "unit": "PT"
+            }
+          },
+          "direction": "LEFT_TO_RIGHT",
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "lineSpacing": 115,
+          "namedStyleType": "NORMAL_TEXT",
+          "pageBreakBefore": false,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "spacingMode": "COLLAPSE_LISTS"
+        },
+        "textStyle": {
+          "backgroundColor": {},
+          "baselineOffset": "NONE",
+          "bold": false,
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "italic": false,
+          "smallCaps": false,
+          "strikethrough": false,
+          "underline": false,
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "paragraphStyle": {
+          "direction": "LEFT_TO_RIGHT",
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "namedStyleType": "NORMAL_TEXT",
+          "pageBreakBefore": false,
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          }
+        },
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "paragraphStyle": {
+          "direction": "LEFT_TO_RIGHT",
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "namedStyleType": "NORMAL_TEXT",
+          "pageBreakBefore": false,
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          }
+        },
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "paragraphStyle": {
+          "direction": "LEFT_TO_RIGHT",
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "namedStyleType": "NORMAL_TEXT",
+          "pageBreakBefore": false,
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          }
+        },
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "blue": 0.2627451,
+                "green": 0.2627451,
+                "red": 0.2627451
+              }
+            }
+          }
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "paragraphStyle": {
+          "direction": "LEFT_TO_RIGHT",
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "namedStyleType": "NORMAL_TEXT",
+          "pageBreakBefore": false,
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          }
+        },
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "blue": 0.4,
+                "green": 0.4,
+                "red": 0.4
+              }
+            }
+          }
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "paragraphStyle": {
+          "direction": "LEFT_TO_RIGHT",
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "namedStyleType": "NORMAL_TEXT",
+          "pageBreakBefore": false,
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          }
+        },
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "blue": 0.4,
+                "green": 0.4,
+                "red": 0.4
+              }
+            }
+          }
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "paragraphStyle": {
+          "direction": "LEFT_TO_RIGHT",
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "namedStyleType": "NORMAL_TEXT",
+          "pageBreakBefore": false,
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          }
+        },
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "blue": 0.4,
+                "green": 0.4,
+                "red": 0.4
+              }
+            }
+          },
+          "italic": true
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "paragraphStyle": {
+          "direction": "LEFT_TO_RIGHT",
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "namedStyleType": "NORMAL_TEXT",
+          "pageBreakBefore": false,
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          }
+        },
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "paragraphStyle": {
+          "direction": "LEFT_TO_RIGHT",
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "namedStyleType": "NORMAL_TEXT",
+          "pageBreakBefore": false,
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "blue": 0.4,
+                "green": 0.4,
+                "red": 0.4
+              }
+            }
+          },
+          "italic": false,
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        }
+      }
+    ]
+  },
+  "revisionId": "ALtnJHwFonIdCyK5ycffMjt6rqsPUkp7_T384GZIkiVKHrD2wJNQCfXcygV5wBJqrs59FL97T1_Ce-tq6ft9LA",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "title": "Emailing SWZA + Warmup"
+}

@@ -84,6 +84,12 @@
 - gws CLI: `+read`/`+append` NEEXISTUJÚ → raw Discovery API, output do `/tmp/x.json`
 - "Toto je hotovo, archivuj thread" = projektová archivácia
 
+## 📭 Reminder pravidlá — prázdny status = žiadny email (potvrdené Zuzkou 14.7.2026)
+- **Prázdny status v stĺpci F = plánovaná úloha, NIE todo** → neposielať email ani reminder
+- Logika: v `swza_task_notify.py` je to `KNOWN_STATUSES = {"in_progress", "blocked", "waiting"}`. Úloha dostane reminder len ak `status ∈ KNOWN_STATUSES` (a zároveň nie je v `CLOSED_STATUSES = {"done","cancelled","postponed"}`)
+- Plánujem zápis do statusu vždy pri "priraď na mňa" / nová úloha (default `in_progress` ak nie je blokovaná), inak ostane prázdny a nikomu nič nechodí
+- Dôvod (14.7.2026): SWZA-048, SWZA-050, SWZA-051, SWZA-052 mali prázdny status a Kucková/Kočian by zbytočne dostali ping; prázdny = "len v pláne, ešte nie v akcii"
+
 ## SWZA Newsletter/Emailing pre bývalých účastníkov — July 1, 2026
 - **Emailing mailchimp: 🚀 SWZA #13 Early Bird – Bývalí účastníci** (ID `1xsFy2CDnAnBlPtettp6N-Kdmu_fdA5AFa8t5ebZFiEQ`)
 - Pôvodne vytvorený v `Komunikačný materiál SWZA / EMAILING (1b-HlsNi4qFMeVmDoAJbqtKeXO6Rjq1WU)`, **1.7.2026 Zuzka presunula do `02_Newsletter_bývalí_účastníci (1TRg7J1s99yLlTlQylk7ZbcOxWaYSsrYb)`** (správne cieľové miesto pre newslettery)

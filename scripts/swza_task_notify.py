@@ -56,9 +56,11 @@ COL_J        = "J"          # Last_reminder_sent
 # Statusy znamenajúce "úloha je uzavretá"
 CLOSED_STATUSES = {"done", "cancelled", "postponed"}
 
-# Statusy pri ktorých sa má posielať reminder (aktívne úlohy).
-# Prázdny status = plánovaná úloha, NIE todo → bez remindru (pravidlo Zuzky 14.7.2026).
-KNOWN_STATUSES = {"in_progress", "blocked", "waiting"}
+# Statusy pri ktorých sa má posielať reminder.
+# Pravidlo Zuzky 14.7.2026:
+#   ping → {in_progress, todo}
+#   preskoč → {blocked, postponed, done, cancelled, '' (prázdny = plánovaná)}
+REMINDABLE_STATUSES = {"in_progress", "todo"}
 
 STATE_DIR = Path.home() / ".hermes"
 STATE_FILE = STATE_DIR / "swza_task_state.json"
@@ -349,9 +351,9 @@ Pozri si zmeny a prípadne ďalej reaguj v Sheete:
         if t_stat in CLOSED_STATUSES:
             continue
 
-        # Preskoč plánované (prázdny status) a neznáme statusy
-        # Pravidlo 14.7.2026: prázdny status = plánovaná úloha, NIE todo
-        if t_stat not in KNOWN_STATUSES:
+        # Preskoč plánované (prázdny status) a statusy bez remindru
+        # Pravidlo 14.7.2026: ping len pre {in_progress, todo}
+        if t_stat not in REMINDABLE_STATUSES:
             continue
 
         # Preskoč úlohy bez ownera — nemá koho pingnúť

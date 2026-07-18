@@ -84,11 +84,14 @@
 - gws CLI: `+read`/`+append` NEEXISTUJÚ → raw Discovery API, output do `/tmp/x.json`
 - "Toto je hotovo, archivuj thread" = projektová archivácia
 
-## 📭 Reminder pravidlá — prázdny status = žiadny email (potvrdené Zuzkou 14.7.2026)
-- **Prázdny status v stĺpci F = plánovaná úloha, NIE todo** → neposielať email ani reminder
-- Logika: v `swza_task_notify.py` je to `KNOWN_STATUSES = {"in_progress", "blocked", "waiting"}`. Úloha dostane reminder len ak `status ∈ KNOWN_STATUSES` (a zároveň nie je v `CLOSED_STATUSES = {"done","cancelled","postponed"}`)
-- Plánujem zápis do statusu vždy pri "priraď na mňa" / nová úloha (default `in_progress` ak nie je blokovaná), inak ostane prázdny a nikomu nič nechodí
-- Dôvod (14.7.2026): SWZA-048, SWZA-050, SWZA-051, SWZA-052 mali prázdny status a Kucková/Kočian by zbytočne dostali ping; prázdny = "len v pláne, ešte nie v akcii"
+## 📭 Reminder pravidlá — kto dostane ping (potvrdené Zuzkou 14.7.2026)
+- **PING** (posiela sa reminder po 4 dňoch): `in_progress`, `todo`
+- **PRESKOČ** (žiadny email): `blocked`, `postponed`, `done`, `cancelled`, prázdny (`''`)
+- Logika v `swza_task_notify.py`: `REMINDABLE_STATUSES = {"in_progress", "todo"}`. Ak status nie je v tejto množine → `continue`.
+- Prázdny status = plánovaná úloha, NIE todo → nikdy nepinguje (pravidlo)
+- `blocked` NEpíše sa preto, lebo na blocked úlohe sa bežne nič nezmení (čaká sa na externý dependency) a ping len otravuje
+- Pri "priraď na mňa" / nová úloha dávam default `in_progress` (ak nie je blokovaná), aby owner dostal svoj prvý reminder ak zabudne
+- Dôvod (14.7.2026): SWZA-048, 050, 051, 052 mali prázdny status a zbytočne by posielali ping; `blocked` úlohy (napr. LinkedIn Community API čakajúci na schválenie) nikdy neprogredujú samé od seba — ping je zbytočný
 
 ## SWZA Newsletter/Emailing pre bývalých účastníkov — July 1, 2026
 - **Emailing mailchimp: 🚀 SWZA #13 Early Bird – Bývalí účastníci** (ID `1xsFy2CDnAnBlPtettp6N-Kdmu_fdA5AFa8t5ebZFiEQ`)

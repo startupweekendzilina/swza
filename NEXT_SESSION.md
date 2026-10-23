@@ -28,3 +28,13 @@ Entry: AGENTS.md -> DECISIONS_AND_GAPS.md -> ROADMAP.md. Source review/evidence:
 - Zuzka paths and master paths are on different servers. Running run.sh is not a read-only inventory call.
 - social-publisher reads a brand file without tools: filesystem adapters preserve its input; a Markdown-only pointer would not supply the brand text.
 - Source catalog records the pre-rehome snapshot and points moved originals to their preserved locations. Photos/video/designs were not visually audited. Live access/restore/ingest/send behavior remains unverified.
+
+## 2026-10-23 - after c25bdb0: verified context and pending host ownership
+
+Project context commit: c25bdb0. Publisher adapter commit: bb04fa2. Post-commit original-source, link and full-brand-consumer checks passed; both worktrees were clean. No remote push: this local SWZA Git has no origin, and publication was not approved in this turn.
+
+Pending writer choice concerns these ai-stack routes only: DECISIONS_AND_GAPS.md (C127/C128/C139/C140, Q42/Q43 aliases), NEXT_SESSION.md (old SWZA seam), PROJECTS_ROADMAP.md (SWZA entry), knowledgebase/MEMORY_ARCHITECTURE.md (application pointer), hermes-swza/README.md (project pointer / unsupported sensitive-value-free claim). Preserve C141 and all unrelated peer work. Canonical blocks and the original SWZA seam are already preserved in this project. Rebuild edits against the current host files; do not replay an obsolete full-file candidate.
+
+Board receipt: KLO-873 comment 7dca3677-3d84-4477-b73e-9dc9e70938e5; planning/pilot remains backlog. Source review and temporary recovery receipts are under sources/; no unique SWZA clone was found in the inspected managed-clone store.
+
+Own remaining scratch was staged to /home/ubuntu/.trash/swza-rehome-20261023-niowknu.trashed-2026-10-23 (normal reaper), after useful results were retained in this project. Duplicate extracted text was removed earlier; originals remain unchanged. No persistent process/listener started.

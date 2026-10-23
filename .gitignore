@@ -1,0 +1,27 @@
+# Version reviewed context only; raw/private assets keep their own source/backup lifecycle.
+/*
+!/.gitignore
+!/AGENTS.md
+!/README.md
+!/PROJECT_CONTEXT.md
+!/DECISIONS_AND_GAPS.md
+!/ROADMAP.md
+!/NEXT_SESSION.md
+!/BRAND.md
+!/SOURCES.md
+!/docs/
+!/docs/**
+!/knowledgebase/
+!/knowledgebase/**
+!/sources/
+/sources/*
+!/sources/catalog.jsonl
+!/sources/review-receipt-20261023.json
+!/sources/context-relocation-20261023.json
+!/extracted/
+/extracted/*
+!/extracted/Data Exports/
+/extracted/Data Exports/*
+!/extracted/Data Exports/00_Discord_Analyza_10_06_2026_readme.md
+**/.DS_Store
+**/__pycache__/

@@ -1,0 +1,305 @@
+{
+  "measured_at_utc": "2026-10-23T04:59:08.949064+00:00",
+  "original_files": 228,
+  "original_bytes": 241088995,
+  "extensions": {
+    ".md": 26,
+    ".docx": 70,
+    ".pdf": 12,
+    ".xlsx": 1,
+    ".png": 12,
+    ".mp4": 3,
+    ".jpeg": 2,
+    ".jpg": 25,
+    ".html": 38,
+    "(none)": 5,
+    ".ai": 6,
+    ".svg": 17,
+    ".psd": 1,
+    ".py": 4,
+    ".tsv": 1,
+    ".woff2": 2,
+    ".soffice": 1,
+    ".pptx": 2
+  },
+  "review_depth": {
+    "text_extracted": 45,
+    "office_text_extracted": 72,
+    "pdf_text_extracted": 11,
+    "sheet_structure_only": 1,
+    "binary_asset_metadata_only": 58,
+    "restricted_mixed_source_metadata_only": 1,
+    "html_visible_text_extracted": 38,
+    "pdf_no_text_visual_review_needed": 1,
+    "private_contact_list_metadata_only": 1
+  },
+  "discord_messages": 4399,
+  "discord_footer_checks": [
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Event 2023/Startup Weekend Žilina 2023 - Text Channels - announcements [1162302516793462856].html",
+      "parsed": 14,
+      "export_footer": 14,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Event 2023/Startup Weekend Žilina 2023 - Text Channels - general [1162299374483816570].html",
+      "parsed": 32,
+      "export_footer": 32,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Event 2023/Startup Weekend Žilina 2023 - Text Channels - mentors [1162302430445326377].html",
+      "parsed": 1,
+      "export_footer": 1,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Event 2023/Startup Weekend Žilina 2023 - Text Channels - questions [1162302473642463262].html",
+      "parsed": 14,
+      "export_footer": 14,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Event 2025/Startup Weekend Žilina 12 - UNIZA - Text Channels - announcements [1427011368334131220].html",
+      "parsed": 9,
+      "export_footer": 9,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Event 2025/Startup Weekend Žilina 12 - UNIZA - Text Channels - food-info [1427011747050553344].html",
+      "parsed": 15,
+      "export_footer": 15,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Event 2025/Startup Weekend Žilina 12 - UNIZA - Text Channels - general [1427009677052612732].html",
+      "parsed": 119,
+      "export_footer": 119,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Event 2025/Startup Weekend Žilina 12 - UNIZA - Text Channels - help-questions [1427012147283623987].html",
+      "parsed": 0,
+      "export_footer": 0,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Event 2025/Startup Weekend Žilina 12 - UNIZA - Text Channels - mentor-support [1427012916837744863].html",
+      "parsed": 7,
+      "export_footer": 7,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - budget [1141992719590379522].html",
+      "parsed": 111,
+      "export_footer": 111,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - facilitator [1143457450155053147].html",
+      "parsed": 110,
+      "export_footer": 110,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - general [1127867879426109542].html",
+      "parsed": 1337,
+      "export_footer": 1337,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - grafika [1127869764577017898].html",
+      "parsed": 448,
+      "export_footer": 448,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - judges [1127869344525852672].html",
+      "parsed": 30,
+      "export_footer": 30,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - kids-mentori [1127878569515827252].html",
+      "parsed": 38,
+      "export_footer": 38,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - marketing-promotion [1127869931485147216].html",
+      "parsed": 364,
+      "export_footer": 364,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - mentori [1127869315270578326].html",
+      "parsed": 123,
+      "export_footer": 123,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - obcerstvenie [1127873675073429536].html",
+      "parsed": 4,
+      "export_footer": 4,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - organizatori [1127878671852654622].html",
+      "parsed": 153,
+      "export_footer": 153,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - priestory [1127872696630390814].html",
+      "parsed": 150,
+      "export_footer": 150,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - prizes [1127869208357777478].html",
+      "parsed": 56,
+      "export_footer": 56,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - social-media [1127873199795863624].html",
+      "parsed": 476,
+      "export_footer": 476,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - sponzori-partneri [1127869271855345766].html",
+      "parsed": 194,
+      "export_footer": 194,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - tricka [1127869453305139220].html",
+      "parsed": 78,
+      "export_footer": 78,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - ubytovanie [1127878838928547910].html",
+      "parsed": 74,
+      "export_footer": 74,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - ucastnici [1127878522376028270].html",
+      "parsed": 177,
+      "export_footer": 177,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - updates [1151822200966479932].html",
+      "parsed": 147,
+      "export_footer": 147,
+      "matches": true
+    },
+    {
+      "path": "extracted/Data Exports/SWZA Discord Export 2026/SWZA Main Server/Startup Weekend Žilina 12 - Text Channels - websites [1127873481971875852].html",
+      "parsed": 118,
+      "export_footer": 118,
+      "matches": true
+    }
+  ],
+  "duplicate_groups": [
+    [
+      "SWZA/ticketing_platforms_complete_guide.md",
+      "Ticketing_Research/ticketing_platforms_complete_guide.md"
+    ],
+    [
+      "extracted/Content/warmup carusel/porota/Ivan Homola.jpg",
+      "extracted/Content/warmup carusel/prednášky/Ivan Homola.jpg"
+    ],
+    [
+      "extracted/Grafika/Flyer kids/SWZA_kids_flyer.pdf",
+      "extracted/Komunikačné materiály/02_Media Kit (SWZA KIDS)/Kópia súboru SWZA_kids_flyer.pdf"
+    ],
+    [
+      "extracted/Grafika/Ilustration/.DS_Store",
+      "extracted/Grafika/Ilustration/Dummies/.DS_Store"
+    ],
+    [
+      "extracted/Grafika/Posty siete/first_post/first_post_1080_1080.jpg",
+      "extracted/Komunikačné materiály/01_Media Kit (SWZA)/03_Základná_Grafika/SWZA_post_1080_1080.jpg"
+    ],
+    [
+      "extracted/Grafika/Posty siete/first_post/first_post_na sirku.jpg",
+      "extracted/Komunikačné materiály/01_Media Kit (SWZA)/03_Základná_Grafika/SWZA_post_na sirku.jpg"
+    ],
+    [
+      "extracted/Grafika/Posty siete/first_post/first_post_na vysku.jpg",
+      "extracted/Komunikačné materiály/01_Media Kit (SWZA)/03_Základná_Grafika/SWZA_post_na vysku.jpg"
+    ]
+  ],
+  "extraction_failures": [],
+  "tmp_discovery": {
+    "scope": "/tmp top-level Markdown/text narrative files; known stores/unrelated project prefixes/oversized files excluded",
+    "candidates_examined": 100,
+    "excluded_by_scope": 1100,
+    "matching_paths": [
+      "/tmp/candidates_raw.txt",
+      "/tmp/klo-700-close-board-list.txt"
+    ],
+    "other_tmp_directories_not_claimed": true
+  },
+  "matching_tmp_disposition": {
+    "/tmp/candidates_raw.txt": "Mixed board candidate list; SWZA occurrence is the existing KLO-34 title. No unique SWZA narrative.",
+    "/tmp/klo-700-close-board-list.txt": "Mixed historical board list: KLO-34/KLO-117/KLO-590. Current board owns the records; no unique SWZA source."
+  },
+  "clone_review": {
+    "path": "/home/ubuntu/ralph-clones/klo-515-20261008083423",
+    "source": "/home/ubuntu/projects/apexalpha",
+    "branch": "task/KLO-515",
+    "worktree": "clean",
+    "swza_commit_subject_matches": 0,
+    "disposition": "Other project and owner; untouched. No SWZA managed clone found in the inspected store."
+  },
+  "test_results": {
+    "test_topup_core.sh": {
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0
+    },
+    "test_topup_gen.sh": {
+      "passed": 24,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "scope_bounds": [
+    "No broad scan of account/config stores, logs, generic JSON payloads or other projects.",
+    "Source assets retained; duplicate groups recorded rather than deleting originals.",
+    "No live-bot restart, outbound send, cloud ingestion, remote push or independent strategy acceptance."
+  ],
+  "useful_artifacts": [
+    "sources/catalog.jsonl",
+    "sources/review-receipt-20261023.json",
+    "sources/context-relocation-20261023.json",
+    "docs/REVIEW.md",
+    "docs/STRATEGY_REVIEW.md"
+  ],
+  "owned_scratch_prune": {
+    "owned_duplicate_extractions_removed": 167,
+    "bytes": 4343530,
+    "source_originals_modified": 0,
+    "useful_results": "Already in SWZA sources/catalog.jsonl, receipts and docs/REVIEW.md"
+  },
+  "context_verification": {
+    "source_records": 228,
+    "source_hash_checks": 227,
+    "restricted_source_metadata_only": 1,
+    "missing_sources": [],
+    "changed_originals": [],
+    "curated_link_checks": 48,
+    "broken_links": [],
+    "relocated_originals_byte_equal": true,
+    "publisher_reads_full_canonical_brand": true,
+    "brand_semantics_preserved_only_audience_route_changed": true,
+    "project_card_lines": 34,
+    "independent_review": "not performed; inline lenses are not independent acceptance"
+  },
+  "host_routing_status": "Prepared; not applied while the shared ai-stack register contains the peer's C141 work. Operator writer-coordination question pending."
+}

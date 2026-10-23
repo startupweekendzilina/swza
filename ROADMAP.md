@@ -1,0 +1,40 @@
+# SWZA — roadmap
+
+Direction only; task descriptions/status live on Paperclip. Authority: C139/C140; plan/thresholds PROPOSED. Root context consolidation does not enable the pilot.
+
+| Phase | Reuse / deliver | Exit evidence | Work / blocker |
+|---|---|---|---|
+| 0 — context and source safety | Existing local archive, decisions, source/edition map, recovery plan | Sources indexed; restore proven before source retirement; recipient lookup safe | KLO-873; KLO-874; KLO-820/KLO-824 |
+| 1 — compile one edition | Historical analyses + current TASKS/Org.Team/Schedule | A cited answer resolves current vs historical facts and names uncertainty | KLO-873; Q42 pilot edition; Q43 remaining sources |
+| 2 — task-management shadow pilot | Read current task changes; prepare owners, due dates, blockers, follow-ups without sending | Human compares proposed actions against real tasks; no invented ownership/deadline | KLO-873; agree baseline/window/thresholds first |
+| 3 — approved internal routine | Bounded reminders and task follow-up using current policy | Dedupe, stop/revoke/reassign/restart behavior works; human oversight reachable | Q42 action policy; KLO-874 fixed |
+| 4 — delivery assistance | Email/content/onboarding/catering/reporting drafts and authorized tool work | External/public/commitment action waits for the applicable approval; delivery verified | KLO-873; source freshness and action-specific authority |
+| 5 — expand knowledge/access | Identified WhatsApp, further Discord/Notion; scoped organizer/mentor/participant answers | Access and coverage proven; restricted material stays inside its audience | Q43; pilot evidence supports expansion |
+
+C139 checkpoint work runs alongside these phases: after completed agent work plus daily checkpoint. Local context Git is initialized; no remote or scheduled checkpoint is configured by this consolidation. Preserve existing Zuzka Git history; reconcile repository identity/path and safe authentication before wiring publication. The earlier guarded implementation remains stopped.
+
+## Historical automation candidates, reordered
+
+| Candidate | Existing material | Next assessment |
+|---|---|---|
+| Task/deadline/blocked-work follow-up | Annual timeline, roles, checklists, current TASKS | First pilot, per C140 |
+| Mentor/partner onboarding | Forms references, templates, rosters | Reuse existing workflows; inventory what is deployed |
+| Catering/shopping/printing | Repeated-problems analysis and checklists | Prepare an edition-specific brief; human checks quantities and physical delivery |
+| Winner/prize/grant-report follow-up | Sponsor/grant and post-event material | Verify actual obligations, responsible person and current deadline |
+| Content and sales visibility | Existing social-publisher and Tootoot report | Resolve publisher D4/Q11; do not create a duplicate sender/dashboard |
+| Website/domain uptime | Historical outage lesson | Use existing host monitoring; verify coverage before adding a new monitor |
+
+Historical tool/pricing/grant suggestions are not an approved tool backlog. Refresh official sources only when a concrete decision needs them.
+
+## Behavioral acceptance for the pilot
+
+1. Current event/task evidence selects the correct owner/date; an old-edition owner is a suggestion, not a silent assignment.
+2. Recipient resolution follows the E-mail header after moving/inserting a column; missing/duplicate headers stop the action.
+3. Repeat input creates no duplicate task/reminder/send; changed date/cancel/completion stops the old follow-up.
+4. External action cannot execute without its valid approval; revoked approval and reassignment survive restart.
+5. Each completion has delivery evidence; a failed tool call is visible and does not become done.
+6. Restricted organizer/budget/participant/Kids material is not returned to an unauthorized audience.
+7. Restore on an isolated copy recovers the selected sources/task/approval state before any source retirement.
+8. Compare organizer time spent, missed commitments and blocked-work age against the agreed baseline/window. Numeric thresholds remain Q42.
+
+Run at delivery, not on a timer. Record failed, skipped and unavailable cases separately.

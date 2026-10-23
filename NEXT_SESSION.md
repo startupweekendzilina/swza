@@ -1,5 +1,11 @@
 # NEXT SESSION - last entry 2026-10-23
 
+## 2026-10-23 - factory/runtime Git split
+
+Supersedes older no-origin statements below. Authority: DECISIONS_AND_GAPS.md SWZA-C2; mapping and publication check: docs/RUNTIME.md. Local factory checkout is factory/working with the existing startupweekendzilina/swza origin configured. Runtime remains main on Zuzka. Access and live runtime are unchanged; raw/private data and binaries remain ignored.
+
+Publication is verified by comparing the factory remote ref with HEAD, not by the presence of origin. Recurring checkpoint automation remains stopped by its earlier guard; KLO-873 runtime projection and existing Q42/Q43 work remain open. Preserve Zuzka's dirty AGENTS.md/campaigns work. No whole-factory merge into main.
+
 ## 2026-10-23 - full context-update/session-close after 095f147
 
 Entry: AGENTS.md -> DECISIONS_AND_GAPS.md -> ROADMAP.md. This entry supersedes the older pending-C141-writer checkpoints below: host routes are now applied; the writer question is obsolete because the peer committed its work.

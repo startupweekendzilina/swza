@@ -14,6 +14,7 @@ Project home: /home/ubuntu/projects/SWZA. Read this card when working on Startup
 - SWZA product context, brand, decisions, knowledge and plans live here.
 - Shared host rules, model routing, services/DR, fleet and general second-brain architecture stay in /home/ubuntu/ai-stack. Company-wide strategy stays in /home/ubuntu/projects/kloski-agentic-company.
 - Actionable implementation work stays on Paperclip: KLO-873 parent; KLO-874 roster; KLO-820 startup exposure; KLO-824 runtime-state loss. Read the actual ticket/comments before acting. Do not create a second task tracker in this folder.
+- Git planes: SWZA-C2; this checkout is factory/working, origin/main is the Hermes deliverable. Promote reviewed runtime content only; never merge the factory wholesale. Mapping: docs/RUNTIME.md.
 - Live SWZA bot is on SSH host Zuzka_Oracle-24GB. Its /home/ubuntu/swza and Hermes data are deployment/runtime sources, not this master's working directory. Mapping: [docs/RUNTIME.md](docs/RUNTIME.md).
 
 ## Work rules specific to SWZA

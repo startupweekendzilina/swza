@@ -1,6 +1,6 @@
 # SWZA — Startup Weekend Žilina
 
-Canonical project context for AI Zuzka: proactive organization, task delivery and sourced knowledge. Existing archive and outreach assets remain in place.
+SWZA factory on factory/working: context, knowledge preparation and maintenance for AI Zuzka. The existing origin/main holds the Hermes product. Branch roles and promotion rules: docs/RUNTIME.md; authority: DECISIONS_AND_GAPS.md SWZA-C2.
 
 | Need | Open |
 |---|---|
@@ -20,4 +20,4 @@ The old claim that no SWZA know-how was distilled was incomplete: historical Fac
 
 Existing source roots: extracted/ (exports, analyses, content and assets), SWZA/ (legacy working material), Ticketing_Research/, outreach/. They are historical/private inputs, not a fresh event schedule. Operator-original warmup decks are preserved; published-asset mappings remain in [the prior workspace index](docs/archive/README-pre-context-20261023.md).
 
-Versioned project context is separate from raw/private assets; see .gitignore and docs/RUNTIME.md. No new origin, remote push, live-bot cutover or external send is part of this consolidation.
+Raw/private assets and runtime stores stay outside Git; .gitignore allows explicit reviewed context paths only. Factory publication and Hermes deployment are separate; never merge working material wholesale into main. Earlier consolidation entries in NEXT_SESSION.md remain historical.

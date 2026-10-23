@@ -1,27 +1,30 @@
-# Version reviewed context only; raw/private assets keep their own source/backup lifecycle.
-/*
+# Only explicitly reviewed context paths are versioned; raw sources and runtime stores stay out.
+*
+!*/
 !/.gitignore
 !/AGENTS.md
-!/README.md
-!/PROJECT_CONTEXT.md
-!/DECISIONS_AND_GAPS.md
-!/ROADMAP.md
-!/NEXT_SESSION.md
 !/BRAND.md
+!/DECISIONS_AND_GAPS.md
+!/NEXT_SESSION.md
+!/PROJECT_CONTEXT.md
+!/README.md
+!/ROADMAP.md
 !/SOURCES.md
-!/docs/
-!/docs/**
-!/knowledgebase/
-!/knowledgebase/**
-!/sources/
-/sources/*
-!/sources/catalog.jsonl
-!/sources/review-receipt-20261023.json
-!/sources/context-relocation-20261023.json
-!/extracted/
-/extracted/*
-!/extracted/Data Exports/
-/extracted/Data Exports/*
+!/docs/REVIEW.md
+!/docs/RUNTIME.md
+!/docs/STRATEGY_REVIEW.md
+!/docs/TEMP_RECOVERY.md
+!/docs/archive/BRAND-20260703.md
+!/docs/archive/DISCORD_INDEX-20260610.md
+!/docs/archive/HANDOFF-20261022.md
+!/docs/archive/MARKETING_SOURCES-20260703.md
+!/docs/archive/README-pre-context-20261023.md
 !/extracted/Data Exports/00_Discord_Analyza_10_06_2026_readme.md
+!/knowledgebase/INDEX.md
+!/knowledgebase/communication.md
+!/knowledgebase/event-operations.md
+!/sources/catalog.jsonl
+!/sources/context-relocation-20261023.json
+!/sources/review-receipt-20261023.json
 **/.DS_Store
 **/__pycache__/

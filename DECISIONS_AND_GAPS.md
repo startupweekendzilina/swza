@@ -54,13 +54,23 @@
 **Consequences:** reuse current sources and tools first; distinguish current facts from past-edition evidence; retain source/audience boundaries. Inventory and proposed phases/acceptance live on Paperclip KLO-873; this row is desired behavior, not a claim that the pilot exists.
 **Provenance:** operator's organizer request and follow-up interactive answers in this conversation, 2026-10-22; no invented message IDs.
 
+### SWZA-C2 — One origin, separate factory and runtime branches
+**Status:** CONFIRMED 2026-10-23 · VERBATIM
+> "dajme to aj na origin všetko, Iné branches"
+> "je to ako fabrika a auto. Fabrika vyrába auto. Použivatelia potrebujú auto, nie fabriku. Na našom host v SWZA je fabrika. Hermes potrebuje auto. Dáva zmysel ?"
+> "prístupy na origin su dané. To neriešme. Chcem len oddeliť runtime a working know how a pracovné, working stuff"
+**Settles:** use the existing startupweekendzilina/swza origin with unchanged access. The master-host SWZA checkout is the factory: working context, maintenance know-how, evidence and source preparation. Keep it on factory/working; main remains the existing Hermes product/runtime branch. This is content separation, not a branch-level access boundary. Publish reviewed Git-suitable work only; raw/private data and runtime stores remain excluded.
+**Does NOT settle:** new repositories or access changes, a live context rollout, bulk merge into main, raw-data publication, checkpoint automation or a workaround for the earlier stopped checkpoint implementation.
+**Consequences:** preserve both existing histories and the Zuzka dirty work; promote only reviewed runtime knowledge/rules/skills to main. Git/path evidence and the publication check live in docs/RUNTIME.md; KLO-873 retains checkpoint/runtime delivery work.
+**Provenance:** current operator conversation; continuation of session 01a1658a-f84e-77b2-a21a-6697306e2fc0.
+
 ## OPEN QUESTIONS
 
 | # | Question | Why it blocks | Owner |
 |---|---|---|---|
 | Q42 | **SWZA C140 pilot: which edition/window, named approval route/fallback per action, cadence/quiet hours/escalation and acceptance thresholds?** OPEN 2026-10-22. Internal-routine vs external/sensitive boundary is already confirmed; do not reopen it. Candidate plan and checks: KLO-873. | Defines the rollout contract; planning/read-only inventory may continue | OP + SUP |
 | Q43 | **SWZA source reconciliation and remaining access:** classify legacy sessions/aliases, date coverage and completeness of existing Drive Discord exports; verify Notion live access/root and identify the WhatsApp group/export route; prove off-host backup/restore. KLO-873 holds measured counts and exact paths. | Prevents double-counting, historical rules becoming current authority, and assuming an available tool means complete data | SUP → OP for missing source identity/access |
-| SWZA-Q1 | Resolve the canonical private Git origin/history and the projection from this local context to the existing Zuzka working tree. KLO-873 owns measurement/design; C139 already settles cadence. | Safe publication and effective bot context; no origin/cutover configured by this rehome | SUP |
+| SWZA-Q1 | PARTIAL 2026-10-23: origin and branch roles answered by SWZA-C2; existing startupweekendzilina/swza origin is configured locally. Publication and selective runtime projection remain under KLO-873. C139 already settles checkpoint cadence. | Factory publication needs a verified push; runtime projection must preserve Zuzka work and source/audience boundaries | SUP |
 | SWZA-Q2 | Existing social-publisher Q11 owns the campaign-mode choice after SWZA #13; read its current register instead of opening another pitch. | Its D4 stale countdown problem remains; this rehome changes ownership paths, not campaign scheduling | OP on that existing question |
 
 ## DEFECTS / EVIDENCE BOUNDS

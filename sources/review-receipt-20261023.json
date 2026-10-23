@@ -301,5 +301,5 @@
     "project_card_lines": 34,
     "independent_review": "not performed; inline lenses are not independent acceptance"
   },
-  "host_routing_status": "Prepared; not applied while the shared ai-stack register contains the peer's C141 work. Operator writer-coordination question pending."
+  "host_routing_status": "Applied 2026-10-23 after C141 was committed; the previous writer question is obsolete. C141 and unrelated register/handoff bytes were preserved."
 }

@@ -1,5 +1,23 @@
 # NEXT SESSION - last entry 2026-10-23
 
+## 2026-10-23 - full context-update/session-close after 095f147
+
+Entry: AGENTS.md -> DECISIONS_AND_GAPS.md -> ROADMAP.md. This entry supersedes the older pending-C141-writer checkpoints below: host routes are now applied; the writer question is obsolete because the peer committed its work.
+
+Closed:
+- ai-stack now routes C127/C128/C139/C140 and Q42/Q43 here; all original blocks remain byte-equal. C141 and unrelated host history were preserved. The old SWZA seam still resolves at its original heading and points to the verbatim archive.
+- PROJECTS_ROADMAP.md discovers SWZA; MEMORY_ARCHITECTURE.md keeps the general architecture and points here. Host deployment/DR remains in ai-stack/hermes-swza/.
+- Current checks: original-source integrity and 48 curated links PASS; domain-agents --check reports 0 problems; scoped git diff --check PASS. Prior unchanged publisher suites: 9 core + 24 generation passed, 0 failed/skipped; not rerun for this docs-only routing step.
+- Git audit: 31 repos / 0 status errors, cached refs only. Foreign dirty work in TKT_CON/ApexAlpha was report-only. Local SWZA has no origin; publication and scheduled sync remain separate.
+- Zuzka live check: SWZA service active, no failed user units returned, gateway/n8n/SWZA containers up. Master Podman/user-bus boundaries were not retried from this lane; the separate Claude runtime check is recorded in the host handoff. Disk 66%, 50G free; no tmux server or owned persistent process/listener.
+
+Next:
+1. KLO-874 current recipient lookup by E-mail header, then the KLO-873 source/restore and task-follow-up shadow pilot. No live send or context cutover was enabled.
+2. Q42 pilot edition/window, per-action approval/fallback and reminder bounds; Q43 WhatsApp identity/main Notion root/source reconciliation. Existing autonomy boundary and checkpoint cadence are already confirmed.
+3. Safe Git origin/history/runtime-projection mapping (SWZA-Q1); the prior checkpoint implementation DENY remains stopped. KLO-820/KLO-824 and the existing deferred KLO-484 rotation decision remain as recorded. social-publisher Q11/D4 still owns campaign mode.
+
+Bounds: no restore, broad ingestion, live Discord REST, Notion, event-level Calendar, outbound-send or independent strategy acceptance test. Keep these unverified. No secrets/guards, model routing, live mounts or runtime configuration were changed.
+
 ## 2026-10-23 - SWZA canonical context
 
 Entry: AGENTS.md -> DECISIONS_AND_GAPS.md -> ROADMAP.md. Source review/evidence: docs/REVIEW.md and SOURCES.md. Work record: /home/ubuntu/ai-stack/tools/paperclip-show KLO-873 --comments.

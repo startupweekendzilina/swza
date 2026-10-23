@@ -70,7 +70,7 @@ Duplicates remain as source evidence; retrieval uses one canonical route. No bul
 
 | Material | Canonical home | Compatibility / retained boundary |
 |---|---|---|
-| SWZA decisions and pending choices | DECISIONS_AND_GAPS.md | Blocks are preserved byte-equal here; host routing replacements await shared-register writer coordination. |
+| SWZA decisions and pending choices | DECISIONS_AND_GAPS.md | Blocks preserved byte-equal here; ai-stack retains stable-ID routes. C141 and unrelated host context are unchanged. |
 | Vision, strategy, responsibility and phases | PROJECT_CONTEXT.md / ROADMAP.md | KLO-873 remains the implementation work record. |
 | Source inventory and reviewed knowledge | SOURCES.md / sources/catalog.jsonl / knowledgebase/ | General memory architecture remains in ai-stack. |
 | Brand and source provenance | BRAND.md / SOURCES.md; original packs under docs/archive/ | social-publisher brands/swza keeps native symlink adapters; no generator logic or campaign scheduling changed. |

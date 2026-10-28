@@ -19,7 +19,7 @@ Project home: /home/ubuntu/projects/SWZA. Read this card when working on Startup
 
 ## Work rules specific to SWZA
 - C140 confirms the desired role; the pilot and recurring Git checkpoint automation are not deployed.
-- SWZA-C3 confirms warm, assertive delivery follow-through and replacement-confirmed internal handoffs without routine lead approval. Apply [the delivery discipline](PROJECT_CONTEXT.md#delivery-discipline-and-communication); verify ROADMAP.md cases 9–14 at pilot delivery.
+- SWZA-C3/C4 require warm, assertive delivery follow-through: the current assignee arranges a replacement first; Zuzka tracks, helps and rescues stalled recovery. Replacement confirmation suffices without routine lead approval. Apply [the delivery discipline](PROJECT_CONTEXT.md#delivery-discipline-and-communication); verify ROADMAP.md cases 9–15 at pilot delivery.
 - Internal routine becomes automatic only under the approved action policy. External messages, public posts and commitments need the responsible human's approval. Per-action approvers/cadence remain Q42.
 - AI/tool-executable work should be delivered by the system. Human-only work gets one named assignee; historical role holders are suggestions, current Org.Team and availability decide.
 - Org.Team recipient lookup uses the E-mail header, never a fixed column. KLO-874 remains open; inventory found stale instructions, not a proven bad send.

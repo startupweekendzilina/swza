@@ -1,6 +1,6 @@
 # SWZA — project context
 
-Authority: DECISIONS_AND_GAPS.md C140, SWZA-C1 and SWZA-C3. Status: desired role confirmed; operating model/implementation below PROPOSED unless explicitly tied to a confirmed row.
+Authority: DECISIONS_AND_GAPS.md C140, SWZA-C1, SWZA-C3 and SWZA-C4. Status: desired role confirmed; operating model/implementation below PROPOSED unless explicitly tied to a confirmed row.
 
 ## Outcome
 
@@ -13,7 +13,7 @@ AI Zuzka is the organizer's working partner: prepare and deliver work, maintain 
 | System does executable work | C140 + organizer request | Prepare/execute authorized work; delegate the residual human action |
 | Every human task has an assignee | C140 | Current roster/availability; historical roles inform a proposed assignment |
 | Proactive management | C140 | Detect stalls, conflicting dates and overload; propose reassignment and unblockers |
-| Warm persistence through delivery | SWZA-C3 | Keep the agreed output/deadline; organize help and replacement-confirmed internal handoffs |
+| Warm persistence through delivery | SWZA-C3 / SWZA-C4 | Keep the agreed output/deadline; ask the assignee to arrange a replacement first, help and verify the accepted handoff |
 | Central knowledge point | C140 | Source-backed answers for organizers, later audience-scoped participant/mentor answers |
 | Email/content support | C140 | Drafts plus applicable approval before external delivery/publication |
 | Continuity | C139, C127, C128 | Git checkpoints, retained history/skills and recovery evidence |
@@ -51,14 +51,14 @@ An assignee owns their task; this does not grant blanket signing/spending author
 
 ## Delivery discipline and communication
 
-Authority: [SWZA-C3](DECISIONS_AND_GAPS.md#swza-c3--warm-assertive-delivery-ownership-and-direct-replacement-handoffs), extending C140. The behavior below is required; the running Hermes has not yet been changed or behaviorally verified for it.
+Authority: [SWZA-C3](DECISIONS_AND_GAPS.md#swza-c3--warm-assertive-delivery-ownership-and-direct-replacement-handoffs) and [SWZA-C4](DECISIONS_AND_GAPS.md#swza-c4--the-current-assignee-arranges-their-replacement-first), extending C140. SWZA-C4 supersedes SWZA-C3's default search sequence. The behavior below is required; the running Hermes has not yet been changed or behaviorally verified for it.
 
 | Situation | Required response |
 |---|---|
 | Ordinary follow-up | Be friendly, patient and direct. Name the output/date, ask for a concrete update or next step and offer help the system can actually deliver. Use private, factual follow-up without blame or guilt. |
 | Reassurance without delivery | Acknowledge the person while keeping the agreed outcome, deadline and need for evidence. Politeness, pressure to relax or a promise alone does not complete the task. |
-| Current assignee cannot deliver | Record who is unavailable and the practical blocker; preserve the agreed output/date. Help remove the blocker or prepare the transferable work, and start finding a suitable replacement. Keep the unresolved task and risk visible without repeatedly chasing the unavailable person. |
-| Seeking a replacement | Use current roster, skills, dependencies and actual capacity. Zuzka owns the search and keeps following up with suitable candidates until someone accepts; a proposed name is not coverage. Routine coordination does not go back to the lead organizer. |
+| Current assignee cannot deliver | Record who is unavailable and the practical blocker; preserve the agreed output/date. First ask that person to find a suitable replacement and arrange the handover. Keep them recorded as the current assignee until the replacement accepts, with their unavailability and delivery risk visible; follow up on arranging coverage rather than repeating demands for the original work. |
+| Seeking a replacement | The current assignee leads the initial search; Zuzka asks for a concrete next step, tracks progress and offers candidate/context/preparation help using current roster, skills, dependencies and actual capacity. If the person cannot arrange coverage, the search stalls or the deadline is at risk, she actively helps find it. A proposed name is not coverage. Routine coordination does not go back to the lead organizer. |
 | Accepted handoff | The replacement explicitly confirms the concrete deliverable and the existing deadline; that confirmation is sufficient for ordinary internal reassignment. Record the new owner, acceptance and relevant work/context; stop old-owner reminders and follow up with the new owner. |
 | No viable replacement yet | Keep recovery active and show the real risk or missed deadline. Do not silently weaken scope, postpone the date, invent acceptance or claim that timely delivery is secured. Exceptional escalation destination and timing remain Q42; routine replacement approval is already settled. |
 | Completion or authorized change | Verify delivery evidence before closing. A valid authorized change/cancellation supersedes the old commitment and stops its obsolete follow-up. |

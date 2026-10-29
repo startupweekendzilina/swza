@@ -39,6 +39,8 @@ The independently created factory history and existing runtime history stay inta
 
 Publication check: git -C /home/ubuntu/projects/SWZA ls-remote origin refs/heads/factory/working; compare its SHA with git -C /home/ubuntu/projects/SWZA rev-parse HEAD. No returned factory ref means publication is pending. Never force push or overwrite origin/main.
 
+On 2026-10-29 the operator explicitly authorized native Hermes publication after ajinformatika's 403 (SWZA-C13), then checkpointing its existing work too (SWZA-C14). The existing Hermes Git client passed write preflight and published factory 8f5a339 and runtime main 11c67bc; SHAs and clean runtime state were read back. Importing Git bundle objects into the existing runtime repo did not check out/merge factory content. Dated preservation/access receipts: [SOURCES.md](../SOURCES.md). Credentials were not read/copied; a temporary copy of the sanctioned git-cm wrapper supplied the remote commit check.
+
 C139 already approves after-work plus daily checkpoints; do not ask that cadence again. The earlier PreToolUse DENY [credentials] for checkpoint implementation remains stopped. No alternate account/lane/tool workaround. KLO-820 and the existing KLO-484 rotation decision retain their scope; this branch split changes no authentication.
 
 Local backup inclusion is visible in ai-stack/maintenance/ip-backup.sh (projects/SWZA file enumeration). That proves selection in source code, not a successful off-host backup/restore. Q43 requires an isolated restore test. Snapshot reaper horizon for the upgrade copies is 2026-11-18.

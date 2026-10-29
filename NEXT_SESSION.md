@@ -1,15 +1,16 @@
 # NEXT SESSION - last entry 2026-10-29
 
-## 2026-10-29 - year-round AI coordination; publication authorized
+## 2026-10-29 - year-round AI coordination; Git publication delivered
 
-Authority: DECISIONS_AND_GAPS.md SWZA-C5–C12 plus C140/SWZA-C3/C4. Continuing session 01a17dd5-5772-78e3-b27e-b5226dfd39f0; this entry supersedes older execution ordering below.
+Authority: DECISIONS_AND_GAPS.md SWZA-C5–C14 plus C140/SWZA-C3/C4. Continuing session 01a17dd5-5772-78e3-b27e-b5226dfd39f0; this entry supersedes older execution ordering below.
 
 - Actors/authority: AI Zuzka / SWZA Hermes / sudruh kolega relieves human organizer Zuzka. Direct assignment by current roles/task similarity; assigned humans decide/deliver and find their replacement if declining/unavailable. AI helps, tracks acceptance, urges and escalates. SWZA-Q3/Q4 are answered; do not reopen them.
 - Annual scope: unfinished edition #13 / 2026 closeout plus gradual 2027 preparation. Work year-round on delivery, relationships, communication, volunteers/presale preparation, scheduling, automation and knowledge/process improvement. Weekday follow-up, quieter weekends, increasing initiative near the event (SWZA-C11/C12).
-- Sources/board: Hermes/Git + Drive + Notion; Discord now, WhatsApp possibly later. Team board remains Google Sheets Master; Paperclip tracks implementation separately. Identify 2027 Drive/current Master and main Notion root/role/access under Q43; no 2027 folder was verified. Runtime/source observations: SOURCES.md follow-up.
+- Sources/board: native GWS verified 2027 under SWZA Shared: 1d-Lh6oMia8nI5w21lOrFgC1ryJwroGK2; one lessons Doc, no 2027 Sheet found. Google Sheets Master remains the team board; identify/create its 2027 authority from current decisions. Main Notion root/access remains unverified; WhatsApp later. Evidence/links: SOURCES.md.
 - Q42: weekday/weekend direction and adaptive intensity are answered; exact local hours/rates, urgent exceptions, escalation timing/channel and technical trial bounds remain open. Planning/source discovery may continue; stage checks without reducing the whole-event mandate to one agenda.
-- Implementation: KLO-873 remains planning; KLO-874 stale email-column instructions need active-caller verification before affected sending (no bad send proven). Preserve runtime-learned work; KLO-824/isolated restore remain continuity work. ROADMAP.md cases 1–20 are not yet run on live Hermes.
-- Publication: operator explicitly requested context-update + commit/push on 2026-10-29. Publish reviewed context on factory/working and verify the remote SHA against HEAD; this does not deploy origin/main or change the bot. Earlier checkpoint PreToolUse DENY [credentials] remains stopped.
+- Implementation: KLO-873 remains planning. Runtime AGENTS recipient guidance now uses the E-mail header; KLO-874 caller audit/inert tests remain open (no bad send proven). KLO-824/isolated restore remain continuity work. ROADMAP.md cases 1–20 have not run on live Hermes.
+- Publication delivered via approved native Hermes Git (SWZA-C13/C14): first factory commit 8f5a339; runtime main 11c67bc, clean tree. Original private notes preserved outside Git; campaign bytes preserved and marked historical. No whole-factory merge, gateway restart or new reminder automation. Earlier checkpoint PreToolUse DENY remains stopped. Read back latest factory HEAD after any follow-up publication.
+- Next: verify SWZA Notion root/access, reconcile 2026 closeout and 2027 planning sources, then project the approved role into Hermes while preserving learned context; settle only the remaining Q42 operating bounds before automated routine.
 
 ## 2026-10-28 - delivery rules captured; implementation remains open
 

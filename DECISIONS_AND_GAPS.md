@@ -161,13 +161,30 @@
 **Consequences:** keep both active cycles explicitly edition-scoped. Identify and prepare useful work without waiting for a human prompt; retain current obligations and historical lessons without copying old dates/people/prices into new commitments. Reuse existing context/sources before adding tools; verify both closeout and early preparation at delivery.
 **Provenance:** operator's annual-work and overlapping-editions clarification in the current conversation, 2026-10-29.
 
+### SWZA-C13 — Explicit exception for native Hermes Git publication
+**Status:** CONFIRMED 2026-10-29 · VERBATIM
+> "ano povoľujem"
+> "pokračuj"
+**Settles:** the operator explicitly approved the question naming commit 8f5a339, publication of factory/working through Hermes's existing Git authentication, no token copying and no main change. This is the requested exception after ajinformatika's GitHub 403; SWZA-C14 extends the main-change boundary for reviewed existing work.
+**Does NOT settle:** recurring checkpoint deployment, a general guard bypass or copying/changing credentials. The earlier checkpoint PreToolUse DENY remains stopped.
+**Consequences:** use the existing authenticated Git client, preserve branch separation and verify remote SHAs. Publication evidence: SOURCES.md.
+**Provenance:** direct answer to the scoped publication-exception question and instruction to continue in this conversation.
+
+### SWZA-C14 — Checkpoint and publish Hermes's existing unfinished work
+**Status:** CONFIRMED 2026-10-29 · VERBATIM
+> "nech commitne a pushne aj to, čo má rozpracované. Nech máme čisto"
+**Settles:** review, commit and push the existing Hermes project work as well, leaving its Git tree clean. Extends SWZA-C13's no-main-change condition for this reviewed runtime checkpoint; no whole-factory merge.
+**Does NOT settle:** publishing raw/private contacts or runtime stores; existing source boundaries remain binding.
+**Consequences:** preserve original notes privately where necessary; publish Git-suitable content and verify committed bytes, remote refs and clean state. No gateway restart or new reminder automation follows from this checkpoint.
+**Provenance:** operator's immediate extension of the approved publication task in this conversation.
+
 ## OPEN QUESTIONS
 
 | # | Question | Why it blocks | Owner |
 |---|---|---|---|
 | Q42 | **AI coordination rollout: trial window, action-specific approval/role map, exact local hours/reminder intervals, urgent weekend exceptions, escalation timing/channel and acceptance thresholds?** OPEN 2026-10-22, PARTIAL 2026-10-29. SWZA-C5/C12 settle 2027 preparation plus unfinished 2026 closeout; C140 and SWZA-C3/C4/C9/C10 settle action boundaries, direct assignment, accepted handoffs and human decision ownership. SWZA-C11 settles weekday follow-up, quieter weekends and increased initiative near the event; exact clock hours/rates remain open. Do not reopen answered choices. Plan/checks: KLO-873 and ROADMAP.md. | Defines rollout bounds; source discovery, annual planning and internal preparation may continue | OP + SUP |
-| Q43 | **SWZA source reconciliation and remaining access:** identify the 2027 Drive root/current Master; clarify Notion's role/root and verify live access; classify legacy sessions/aliases, date coverage and completeness of existing Drive Discord exports; identify the later WhatsApp group/export route; prove off-host backup/restore. KLO-873 holds historical counts/paths; current observations: SOURCES.md, 2026-10-29 follow-up. | Prevents double-counting, historical rules becoming current authority, and assuming an available tool means complete data | SUP → OP for missing source identity/access |
-| SWZA-Q1 | PARTIAL: origin/branch roles settled by SWZA-C2; C139 settles checkpoint cadence. On 2026-10-28, `git ls-remote origin refs/heads/factory/working` succeeded with no ref: factory publication remains pending. Selective runtime projection stays under KLO-873. | Publication needs explicit push authorization and readback; runtime projection must preserve Zuzka work and source/audience boundaries | SUP |
+| Q43 | **Source/access reconciliation, PARTIAL 2026-10-29:** native GWS verified the 2027 folder under SWZA Shared and its one lessons document; no 2027 spreadsheet was returned by native GWS search. Identify the current/new Master and verify main SWZA Notion root/role/access. Legacy-session/Discord coverage, later WhatsApp source and off-host restore remain open. Evidence: SOURCES.md; work: KLO-873. | Prevents missing sources, historical rules becoming current authority and assumed tool/access completeness | SUP → OP for missing source identity/access |
+| SWZA-Q1 | PARTIAL 2026-10-29: factory first publication verified at 8f5a339; Hermes main checkpoint verified at 11c67bc with clean runtime tree, using SWZA-C13/C14. C139's recurring checkpoint and selective new-role projection remain under KLO-873; neither was deployed. | Git publication is delivered; preserve source/branch boundaries during later runtime projection | SUP |
 | SWZA-Q2 | Existing social-publisher Q11 owns the campaign-mode choice after SWZA #13; read its current register instead of opening another pitch. | Its D4 stale countdown problem remains; this rehome changes ownership paths, not campaign scheduling | OP on that existing question |
 | SWZA-Q3 | CLOSED 2026-10-29 by SWZA-C7: the operator delegates the whole organization/coordination of SWZA 2027, including schedules, responsibilities and persistent follow-through. Do not require him to pick a single agenda again. | Scope answered; staging checks does not reduce the mandate. Dates, source identities and operating bounds remain Q42/Q43 | OP — answered |
 | SWZA-Q4 | CLOSED 2026-10-29 by SWZA-C9: AI assigns directly by roles/task similarity; a declining person must find a replacement. SWZA-C8 distinguishes AI Zuzka from the human organizer; SWZA-C10 keeps substantive recovery decisions with assigned humans. | Initial-assignment authority answered; replacement acceptance under SWZA-C3/C4 remains required | OP — answered |

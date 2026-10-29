@@ -63,4 +63,20 @@ Authority: DECISIONS_AND_GAPS.md SWZA-C5/C6. Read-only source/runtime observatio
 | Notion | This session has no connected Notion tools; a Notion plugin is available but not connected. Hermes has a productivity/notion skill; the existing Content Machine reference remains in the historical inventory above | Neither live access nor the main organizer root/role was verified |
 | Implementation backlog | KLO-873, KLO-874 and KLO-824 read with comments; all report backlog | No repair, task closure or rollout performed |
 
-Selected runtime Git status remains main with modified AGENTS.md and untracked campaigns/. Preserve that work. No contact rows, memory contents or runtime stores were copied into Git.
+Before publication, runtime main had modified AGENTS.md and untracked campaigns/. The checkpoint below preserves that work; no raw contact rows, memory contents or runtime stores were added to Git.
+
+## 2026-10-29 publication and native GWS readback
+
+Authority: SWZA-C13/C14. Native Hermes Git write preflight and both actual pushes succeeded; remote SHAs were read back.
+
+| Surface | Verified result | Remaining bound |
+|---|---|---|
+| Factory | First factory/working publication: 8f5a3394e00d346c91872c8fd3abac6f26fd262b | Follow-up receipt commits must also be read back; no whole-factory merge |
+| Hermes main | 11c67bc26124aa9a2d78e8a3fc6c46e1e51f9d1d; clean Git tree | New organizational behavior/recurring checkpoints remain undeployed |
+| Work preservation | 11 original campaign files byte-identical; six PNGs visually reviewed; historical-draft README added | Drafts are not an approved current campaign |
+| Private notes | Full original AGENTS preserved at /home/node/.hermes/private-context-archive/prepublish-2026-10-29-e9d610ba3e7d/AGENTS-original.md; SHA-256 e9d610ba3e7d6e8d817ce978d5ccf81cbad206cc599cfa861e22cb5a05c1052a | Public AGENTS has no email rows; preservation is not an off-host restore test |
+| Drive 2027 | Native GWS found [2027](https://drive.google.com/drive/folders/1d-Lh6oMia8nI5w21lOrFgC1ryJwroGK2) under SWZA Shared; one child, [Co si mame zapamatat na swza 14](https://docs.google.com/document/d/1djN64pytIP8rB_QHukycbkAUDa-Hszet2_vCVeyrYjE/edit) | Document metadata only; no 2027 Sheet returned by the native global name search |
+| MASTER 2026 | Native read confirms 20 tabs; Org.Team has 14 headers with unique E-mail at position 6 | No contact rows exported; KLO-874 active-caller verification remains open |
+| Notion | No connector in this chat; Hermes has the skill, but ntn/notion CLI absent | SWZA API access and main organizer root still unverified; no denied tool was retried |
+
+The earlier connected-Drive search miss does not negate this native GWS discovery. Keep account/tool coverage explicit; use the verified 2027 source instead of asking for its location again.

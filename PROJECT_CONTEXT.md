@@ -37,7 +37,7 @@ AI Zuzka / SWZA Hermes / sudruh kolega coordinates the whole event year-round to
 | Post-event/next edition | Prize follow-ups, reports and historical lessons | Finish 2026 obligations while planning 2027; prepare volunteers/presale and next-year schedule |
 | Knowledge/process/automation | Existing sources, project knowledge and feedback | Maintain the second brain/wiki; distill lessons, consolidate context and improve proven processes |
 
-Team board: existing Google Sheets Master copy (SWZA-C6); exact 2027 file/root remains Q43. Sources: Hermes/Git + Drive + Notion; communication: Discord, possibly WhatsApp later (SWZA-C5). Notion's precise role/access remains open. MASTER 2026 supports actual 2026 closeout and historical lessons; it is not automatic 2027 authority. Paperclip tracks implementation separately. AI may propose later workflow improvements; no board migration is approved here.
+Team board: existing Google Sheets Master copy (SWZA-C6). Native GWS verified the 2027 Drive root (SOURCES.md); a 2027 Master was not found and remains Q43. Sources: Hermes/Git + Drive + Notion; communication: Discord, possibly WhatsApp later (SWZA-C5). Notion's precise role/access remains open. MASTER 2026 supports actual 2026 closeout and lessons, not automatic 2027 authority. Paperclip tracks implementation separately; later workflow improvements remain proposals.
 
 ## Proposed operating loop
 

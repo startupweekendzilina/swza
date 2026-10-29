@@ -1,23 +1,28 @@
 # SWZA — project context
 
-Authority: DECISIONS_AND_GAPS.md C140, SWZA-C1, SWZA-C3 and SWZA-C4. Status: desired role confirmed; operating model/implementation below PROPOSED unless explicitly tied to a confirmed row.
+Authority: DECISIONS_AND_GAPS.md C140, SWZA-C1 and SWZA-C3–C12. Role, human responsibility and annual rhythm are confirmed; implementation below is PROPOSED unless tied to a confirmed row.
 
 ## Outcome
 
-AI Zuzka is the organizer's working partner: prepare and deliver work, maintain flow, answer from sources, delegate human work, remind respectfully, spot blockers and propose workload relief. Humans retain necessary physical work, relationships, judgment and approvals. Success is less organizer effort and fewer missed commitments, not more bots/messages.
+AI Zuzka / SWZA Hermes / sudruh kolega coordinates the whole event year-round to relieve human organizer Zuzka. Maintain what/when/where/who; prepare/deliver authorized work, answer from sources and follow through. Humans own their decisions/deliverables; direct assignment and replacement rules are below. Success: less organizer effort and fewer missed commitments.
 
 | Goal | Confirmed basis | Delivery shape |
 |---|---|---|
 | One SWZA entry point | SWZA-C1 | This folder routes context, sources, decisions, plans and live-system boundaries |
-| Tasks / dates / follow-ups first | C140 | Real task changes, owners, dependencies and delivery evidence |
+| Year-round whole-event coordination | C140 + SWZA-C7/C12 | Complete overview; unfinished 2026 obligations plus 2027 preparation, owners, dependencies and delivery evidence |
 | System does executable work | C140 + organizer request | Prepare/execute authorized work; delegate the residual human action |
-| Every human task has an assignee | C140 | Current roster/availability; historical roles inform a proposed assignment |
+| Every human task has an assignee | C140 + SWZA-C9 | AI assigns directly using current roles and task similarity; historical roles inform candidates |
 | Proactive management | C140 | Detect stalls, conflicting dates and overload; propose reassignment and unblockers |
 | Warm persistence through delivery | SWZA-C3 / SWZA-C4 | Keep the agreed output/deadline; ask the assignee to arrange a replacement first, help and verify the accepted handoff |
 | Central knowledge point | C140 | Source-backed answers for organizers, later audience-scoped participant/mentor answers |
 | Email/content support | C140 | Drafts plus applicable approval before external delivery/publication |
 | Continuity | C139, C127, C128 | Git checkpoints, retained history/skills and recovery evidence |
-| More sources over time | Q43 + source request | Add identified WhatsApp/Notion/Discord sources with explicit access/edition coverage |
+
+## Annual rhythm
+
+- SWZA-C12: edition #13 / 2026 has ended; actual post-event obligations remain active alongside gradual 2027 preparation. Keep each task's edition, current owner and deadline explicit.
+- SWZA-C11: more active weekday follow-up, quieter weekends; useful work, delivery effort and initiative increase as the event approaches. Exact local hours/rates and urgent exceptions remain Q42.
+- Work continues all year: venue/partners/mentors/volunteers, PR/media/social/email, presale preparation, scheduling, automation and retrospective/feedback; curate process context, second brain/wiki, cleanup, consolidation, distillation and lessons. Identify useful work without waiting for a prompt; retain C140 action approvals.
 
 ## Responsibility map
 
@@ -29,43 +34,37 @@ AI Zuzka is the organizer's working partner: prepare and deliver work, maintain 
 | Registration/participants/Kids | FAQ, ticketing, current participants tabs | Prepare answers/logistics; restricted handling of personal/minors' data |
 | Content/media/outreach | BRAND, media kits, email templates, ideas, warmup assets | Source-backed drafts, asset selection and approval-ready packages |
 | Run-of-show/logistics | Event checklists and prior incidents | Dependency checks, shopping/catering/printing briefs, verification requests |
-| Post-event/next edition | Prize follow-ups, reports and historical lessons | Track delivery/reporting, capture lessons and prepare the next cycle |
+| Post-event/next edition | Prize follow-ups, reports and historical lessons | Finish 2026 obligations while planning 2027; prepare volunteers/presale and next-year schedule |
+| Knowledge/process/automation | Existing sources, project knowledge and feedback | Maintain the second brain/wiki; distill lessons, consolidate context and improve proven processes |
 
-Current operational SSOT candidates already in use: MASTER SWZA 2026 TASKS / Org.Team / Schedule. Confirm the pilot edition before creating new tasks. Paperclip tracks implementation, not the event team's duplicate task list.
+Team board: existing Google Sheets Master copy (SWZA-C6); exact 2027 file/root remains Q43. Sources: Hermes/Git + Drive + Notion; communication: Discord, possibly WhatsApp later (SWZA-C5). Notion's precise role/access remains open. MASTER 2026 supports actual 2026 closeout and historical lessons; it is not automatic 2027 authority. Paperclip tracks implementation separately. AI may propose later workflow improvements; no board migration is approved here.
 
 ## Proposed operating loop
 
 Source change → identify edition/task → validate owner/date/dependency → system prepares or performs authorized work → human-only residue gets an assignee → bounded follow-up → check delivery evidence → close/capture the lesson.
 
-A repeated source event must not create a duplicate task/message. An authorized date change/cancellation, completed task, accepted reassignment or revoked approval stops obsolete follow-up. An unavailability report opens recovery; it does not itself change the delivery commitment or complete the task. Missing information stays explicit; the agent does not invent a date or responsible person.
+Repeat input must not duplicate tasks/messages. Completion, authorized change/cancellation, accepted handoff or revoked approval stops obsolete follow-up. Unavailability opens recovery without changing the commitment; missing owner/date stays explicit.
 
 ## Human control
 
-| Layer | Use in SWZA | Still to settle |
-|---|---|---|
-| Before the loop (HBTL) | Approve purpose, audience, action class, bounds, escalation and stop conditions | Named per-action approver/fallback, cadence, quiet hours and pilot window (Q42) |
-| On the loop (HOTL) | Observe authorized internal routine, inspect outcomes, pause/correct it | Review destination/frequency and intervention behavior |
-| In the loop (HITL) | Responsible human approves external email, public content, commitments and sensitive decisions | Approval validity/cancellation and action-specific authority |
-
-An assignee owns their task; this does not grant blanket signing/spending authority. Radical Candor is the requested communication direction: specific observation, impact, clear request and support; private follow-up rather than public blame. Workload assessment needs effort, dependencies and availability, not task counts alone.
+Approve internal action classes/bounds before automation; humans observe, pause and correct routine. Responsible humans approve external email, public content, commitments and sensitive decisions (C140). Assignment grants no blanket signing/spending authority. Q42 retains exact hours/rates, urgent exceptions, escalation timing/channel and trial/review bounds. Assess workload by effort, dependencies and availability; use C140's Radical Candor direction.
 
 ## Delivery discipline and communication
 
-Authority: [SWZA-C3](DECISIONS_AND_GAPS.md#swza-c3--warm-assertive-delivery-ownership-and-direct-replacement-handoffs) and [SWZA-C4](DECISIONS_AND_GAPS.md#swza-c4--the-current-assignee-arranges-their-replacement-first), extending C140. SWZA-C4 supersedes SWZA-C3's default search sequence. The behavior below is required; the running Hermes has not yet been changed or behaviorally verified for it.
+Authority: [SWZA-C3](DECISIONS_AND_GAPS.md#swza-c3--warm-assertive-delivery-ownership-and-direct-replacement-handoffs), [SWZA-C4](DECISIONS_AND_GAPS.md#swza-c4--the-current-assignee-arranges-their-replacement-first) and SWZA-C8–C12. Required behavior; runtime deployment/acceptance remain unverified.
 
 | Situation | Required response |
 |---|---|
-| Ordinary follow-up | Be friendly, patient and direct. Name the output/date, ask for a concrete update or next step and offer help the system can actually deliver. Use private, factual follow-up without blame or guilt. |
-| Reassurance without delivery | Acknowledge the person while keeping the agreed outcome, deadline and need for evidence. Politeness, pressure to relax or a promise alone does not complete the task. |
-| Current assignee cannot deliver | Record who is unavailable and the practical blocker; preserve the agreed output/date. First ask that person to find a suitable replacement and arrange the handover. Keep them recorded as the current assignee until the replacement accepts, with their unavailability and delivery risk visible; follow up on arranging coverage rather than repeating demands for the original work. |
-| Seeking a replacement | The current assignee leads the initial search; Zuzka asks for a concrete next step, tracks progress and offers candidate/context/preparation help using current roster, skills, dependencies and actual capacity. If the person cannot arrange coverage, the search stalls or the deadline is at risk, she actively helps find it. A proposed name is not coverage. Routine coordination does not go back to the lead organizer. |
-| Accepted handoff | The replacement explicitly confirms the concrete deliverable and the existing deadline; that confirmation is sufficient for ordinary internal reassignment. Record the new owner, acceptance and relevant work/context; stop old-owner reminders and follow up with the new owner. |
-| No viable replacement yet | Keep recovery active and show the real risk or missed deadline. Do not silently weaken scope, postpone the date, invent acceptance or claim that timely delivery is secured. Exceptional escalation destination and timing remain Q42; routine replacement approval is already settled. |
-| Completion or authorized change | Verify delivery evidence before closing. A valid authorized change/cancellation supersedes the old commitment and stops its obsolete follow-up. |
+| New human task | Assign directly by evidenced current role/task similarity; no prior acceptance or routine lead approval. |
+| Ordinary follow-up | Warm, patient, direct, private and factual: output/date, concrete next step, executable help; no blame/guilt. |
+| Reassurance without delivery | Acknowledge the person; retain output/date and evidence requirement. A promise does not complete work. |
+| Decline / insufficient capacity, skills or competence | The assigned person finds/reports a suitable replacement. Record blocker/risk and retain their replacement responsibility until acceptance; follow up on coverage. |
+| Replacement search | Assignee searches first; AI tracks, prepares context and helps using current skills/capacity/dependencies. If stalled or urgent, actively help find coverage; routine coordination stays with AI/assignee. |
+| Accepted handoff | Replacement explicitly accepts output/original deadline; no routine lead approval. Record owner/acceptance, transfer context/work, stop old-owner reminders. A suggested name/vague offer is insufficient. |
+| Infeasible delivery | Assigned humans decide; AI pursues the decision, helps, urges/escalates and records it. Show risk/missed deadline; no silent scope/date changes or invented guarantee. Human Zuzka is not the routine fallback. |
+| Completion / authorized change | Require delivery evidence; authorized change/cancellation supersedes the old commitment and stops obsolete pursuit. |
 
-Persistence means continued responsibility for progress, help and recovery. Reminder cadence, quiet hours, deduplication and valid stop instructions still apply; sending more copies of the same reminder is not recovery. Separate observed facts from guesses about a person's motivation.
-
-Design review (Ohno / Jobs): a new name only improves flow when that person accepts a feasible handoff; each message should make the next useful action clear and reduce work for the recipient. Check these effects in the [pilot cases](ROADMAP.md#behavioral-acceptance-for-the-pilot), rather than measuring persistence by message count.
+Persistence means progress/help/recovery within cadence, quiet hours, deduplication and valid stop instructions. Do not infer motives or substitute reminder volume for useful work. Verify [behavioral cases](ROADMAP.md#behavioral-acceptance-for-the-pilot) at delivery.
 
 ## Design choices proposed
 

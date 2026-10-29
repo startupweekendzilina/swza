@@ -35,7 +35,7 @@ Authority: DECISIONS_AND_GAPS.md SWZA-C2. Origin: https://github.com/startupweek
 | origin/main, Zuzka /home/ubuntu/swza | Hermes product/runtime material | Promote selected reviewed knowledge/rules/skills; no whole-factory merge |
 | Ignored local sources / live Hermes data | Raw/private archives, contacts, binaries, runtime databases | Keep their source/backup lifecycle outside Git |
 
-The independently created factory history and existing runtime history stay intact on separate branches. Factory publication does not deploy context to Hermes. Zuzka has dirty AGENTS.md and untracked campaigns/; preserve them. No live path/mount change or scheduled sync is part of this split.
+The independently created factory history and existing runtime history stay intact on separate branches. Factory publication does not deploy context to Hermes. Dated runtime worktree observations are in [SOURCES.md](../SOURCES.md); recheck and preserve that work before editing. No live path/mount change or scheduled sync is part of this split.
 
 Publication check: git -C /home/ubuntu/projects/SWZA ls-remote origin refs/heads/factory/working; compare its SHA with git -C /home/ubuntu/projects/SWZA rev-parse HEAD. No returned factory ref means publication is pending. Never force push or overwrite origin/main.
 

@@ -1,4 +1,37 @@
-# NEXT SESSION - last entry 2026-10-23
+# NEXT SESSION - last entry 2026-10-29
+
+## 2026-10-29 - year-round AI coordination; publication authorized
+
+Authority: DECISIONS_AND_GAPS.md SWZA-C5–C12 plus C140/SWZA-C3/C4. Continuing session 01a17dd5-5772-78e3-b27e-b5226dfd39f0; this entry supersedes older execution ordering below.
+
+- Actors/authority: AI Zuzka / SWZA Hermes / sudruh kolega relieves human organizer Zuzka. Direct assignment by current roles/task similarity; assigned humans decide/deliver and find their replacement if declining/unavailable. AI helps, tracks acceptance, urges and escalates. SWZA-Q3/Q4 are answered; do not reopen them.
+- Annual scope: unfinished edition #13 / 2026 closeout plus gradual 2027 preparation. Work year-round on delivery, relationships, communication, volunteers/presale preparation, scheduling, automation and knowledge/process improvement. Weekday follow-up, quieter weekends, increasing initiative near the event (SWZA-C11/C12).
+- Sources/board: Hermes/Git + Drive + Notion; Discord now, WhatsApp possibly later. Team board remains Google Sheets Master; Paperclip tracks implementation separately. Identify 2027 Drive/current Master and main Notion root/role/access under Q43; no 2027 folder was verified. Runtime/source observations: SOURCES.md follow-up.
+- Q42: weekday/weekend direction and adaptive intensity are answered; exact local hours/rates, urgent exceptions, escalation timing/channel and technical trial bounds remain open. Planning/source discovery may continue; stage checks without reducing the whole-event mandate to one agenda.
+- Implementation: KLO-873 remains planning; KLO-874 stale email-column instructions need active-caller verification before affected sending (no bad send proven). Preserve runtime-learned work; KLO-824/isolated restore remain continuity work. ROADMAP.md cases 1–20 are not yet run on live Hermes.
+- Publication: operator explicitly requested context-update + commit/push on 2026-10-29. Publish reviewed context on factory/working and verify the remote SHA against HEAD; this does not deploy origin/main or change the bot. Earlier checkpoint PreToolUse DENY [credentials] remains stopped.
+
+## 2026-10-28 - delivery rules captured; implementation remains open
+
+Entry: AGENTS.md -> DECISIONS_AND_GAPS.md SWZA-C3/C4. C4 controls search order; commits fdf6955, b3c4743.
+
+### Corrections to older entries
+
+| Older claim | Evidence |
+|---|---|
+| No origin / origin identity unresolved | SWZA-C2 settled both. `git ls-remote origin refs/heads/factory/working` returned no ref on 2026-10-28: publication remains pending. |
+
+### Next execution
+
+1. KLO-874: `/home/ubuntu/ai-stack/tools/paperclip-show KLO-874 --comments`. Known host/repo: `ssh Zuzka_Oracle-24GB`, `/home/ubuntu/swza`. Read the remote card and classify dirty work; resolve E-mail by header and test with inert data before autonomous messages.
+2. KLO-873/Q43: reconcile sources, prove isolated restore before source retirement (upgrade-copy reaper: 2026-11-18), preserve runtime-learned work. Promote selected policy only; no whole-factory merge into main.
+3. Q42: agree edition/window, cadence/quiet hours, exceptional escalation/fallback and success thresholds. Then run a shadow pilot without sending; prove context loading and ROADMAP cases 1–15 before the approved routine.
+
+### Still open / boundaries
+
+- KLO-873/KLO-874/KLO-820/KLO-824 read back as backlog on 2026-10-28. KLO-484's rotation deferral, Q43 WhatsApp/Notion gaps and publisher Q11/D4 remain open.
+- No SSH/runtime change, restore, live send or pilot acceptance here. Prior checkpoint PreToolUse DENY [credentials] stays stopped; no workaround. Master KLO-825/KLO-826 remain outside SWZA.
+- Context-update leaves local documentation changes without commit/push; inspect explicit paths. Publication needs current explicit push authorization.
 
 ## 2026-10-23 - factory/runtime Git split
 
